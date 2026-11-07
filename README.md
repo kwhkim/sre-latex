@@ -5,6 +5,33 @@ Generates speech output for LaTeX expressions. This is based on
 Engine](https://speechruleengine.org).
 
 
+## Pinned historical checkout
+
+This checkout pins compatible direct dependency releases from 2022-2023 and
+locks all transitive dependencies to releases available by 2023-11-07 UTC.
+The lockfile includes older leaf packages where required by those dependencies.
+See [DEPENDENCY_REVIEW.md](DEPENDENCY_REVIEW.md) for known vulnerabilities and
+review limits. These historical pins are for compatibility, not a security guarantee.
+
+To build this checkout locally (without fetching the separately published wrapper):
+
+```sh
+npm ci --ignore-scripts
+npm run build
+node bin/latex-to-speech --domain clearspeak 'x^2' '\frac{a}{b}'
+```
+
+Installation hooks are disabled in `.npmrc`. The build is an explicit execution
+step and still runs with that setting. `mhchemparser` is a pinned build dependency;
+there is no nested postinstall download. Keep `package-lock.json` under version
+control and use `npm ci` to preserve the reviewed tree. The generated
+`bin/tex2mml.js` and `node_modules/` are ignored by Git. Build before using the module.
+The build and conversion examples were checked with Node.js 24.22.1 and npm 11.19.1;
+this does not establish compatibility with all older Node.js versions.
+
+The upstream package installation instructions below refer to the public npm
+package, which does not acquire this checkout's dependency pins.
+
 ## Install
 
 Install with

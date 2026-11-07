@@ -1,0 +1,3552 @@
+[
+  {
+    "name": "@ampproject/remapping",
+    "version": "2.2.1",
+    "published": "2023-04-07T02:43:13.129Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ampproject/remapping.git"
+    },
+    "integrity": "sha512-lFMjJTrFL3j7L9yBxwYfCq2k6qqwHyzuUl/XBnif78PWTJYyL/dfowQHWE3sp6U6ZzqWiiIZnpTMO96zhkjwtg==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/code-frame",
+    "version": "7.22.13",
+    "published": "2023-08-28T17:01:57.853Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-code-frame"
+    },
+    "integrity": "sha512-XktuhWlJ5g+3TJXc5upd9Ks1HutSArik6jf2eAjYFyIOf4ej3RN+184cZbzDvbPnuTJIUhPKKJE3cIsYTiAT3w==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/compat-data",
+    "version": "7.23.2",
+    "published": "2023-10-11T18:51:22.329Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-compat-data"
+    },
+    "integrity": "sha512-0S9TQMmDHlqAZ2ITT95irXKfxN9bncq8ZCoJhun3nHL/lLUxd2NKBJYoNGWH7S0hz6fRQwWlAWn/ILM0C70KZQ==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/core",
+    "version": "7.23.2",
+    "published": "2023-10-12T00:34:03.712Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-core"
+    },
+    "integrity": "sha512-n7s51eWdaWZ3vGT2tD4T7J6eJs3QoBXydv7vkUM06Bf1cbVD2Kc2UrkzhiQwobfV7NwOnQXYL7UBJ5VPU+RGoQ==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/generator",
+    "version": "7.23.0",
+    "published": "2023-09-25T08:11:26.984Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-generator"
+    },
+    "integrity": "sha512-lN85QRR+5IbYrMWM6Y4pE/noaQtg4pNiqeNGX60eqOfo6gtEj6uw/JagelB8vVztSd7R6M5n1+PQkDbHbBRU4g==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/helper-annotate-as-pure",
+    "version": "7.22.5",
+    "published": "2023-06-08T18:21:25.355Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-helper-annotate-as-pure"
+    },
+    "integrity": "sha512-LvBTxu8bQSQkcyKOU+a1btnNFQ1dMAd0R6PyW3arXes06F6QLWLIrd681bxRPIXlrMGR3XYnW9JyML7dP3qgxg==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/helper-builder-binary-assignment-operator-visitor",
+    "version": "7.22.15",
+    "published": "2023-09-04T12:25:17.172Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-helper-builder-binary-assignment-operator-visitor"
+    },
+    "integrity": "sha512-QkBXwGgaoC2GtGZRoma6kv7Szfv06khvhFav67ZExau2RaXzy8MpHSMO2PNoP2XtmQphJQRHFfg77Bq731Yizw==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/helper-compilation-targets",
+    "version": "7.22.15",
+    "published": "2023-09-04T12:25:11.681Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-helper-compilation-targets"
+    },
+    "integrity": "sha512-y6EEzULok0Qvz8yyLkCvVX+02ic+By2UdOhylwUOvOn9dvYc9mKICJuuU1n1XBI02YWsNsnrY1kc6DVbjcXbtw==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/helper-create-class-features-plugin",
+    "version": "7.22.15",
+    "published": "2023-09-04T12:25:20.158Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-helper-create-class-features-plugin"
+    },
+    "integrity": "sha512-jKkwA59IXcvSaiK2UN45kKwSC9o+KuoXsBDvHvU/7BecYIp8GQ2UwrVvFgJASUT+hBnwJx6MhvMCuMzwZZ7jlg==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/helper-create-regexp-features-plugin",
+    "version": "7.22.15",
+    "published": "2023-09-04T12:25:02.191Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-helper-create-regexp-features-plugin"
+    },
+    "integrity": "sha512-29FkPLFjn4TPEa3RE7GpW+qbE8tlsu3jntNYNfcGsc49LphF1PQIiD+vMZ1z1xVOKt+93khA9tc2JBs3kBjA7w==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/helper-define-polyfill-provider",
+    "version": "0.4.3",
+    "published": "2023-10-11T07:02:15.501Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel-polyfills.git",
+      "directory": "packages/babel-helper-define-polyfill-provider"
+    },
+    "integrity": "sha512-WBrLmuPP47n7PNwsZ57pqam6G/RGo1vw/87b0Blc53tZNGZ4x7YvZ6HgQe2vo1W/FR20OgjeZuGXzudPiXHFug==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/helper-environment-visitor",
+    "version": "7.22.20",
+    "published": "2023-09-16T16:28:36.485Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-helper-environment-visitor"
+    },
+    "integrity": "sha512-zfedSIzFhat/gFhWfHtgWvlec0nqB9YEIVrpuwjruLlXfUSnA8cJB0miHKwqDnQ7d32aKo2xt88/xZptwxbfhA==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/helper-function-name",
+    "version": "7.23.0",
+    "published": "2023-09-25T08:11:26.889Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-helper-function-name"
+    },
+    "integrity": "sha512-OErEqsrxjZTJciZ4Oo+eoZqeW9UIiOcuYKRJA4ZAgV9myA+pOXhhmpfNCKjEH/auVfEYVFJ6y1Tc4r0eIApqiw==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/helper-hoist-variables",
+    "version": "7.22.5",
+    "published": "2023-06-08T18:21:26.632Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-helper-hoist-variables"
+    },
+    "integrity": "sha512-wGjk9QZVzvknA6yKIUURb8zY3grXCcOZt+/7Wcy8O2uctxhplmUPkOdlgoNhmdVee2c92JXbf1xpMtVNbfoxRw==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/helper-member-expression-to-functions",
+    "version": "7.23.0",
+    "published": "2023-09-25T08:11:27.008Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-helper-member-expression-to-functions"
+    },
+    "integrity": "sha512-6gfrPwh7OuT6gZyJZvd6WbTfrqAo7vm4xCzAXOusKqq/vWdKXphTpj5klHKNmRUU6/QRGlBsyU9mAIPaWHlqJA==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/helper-module-imports",
+    "version": "7.22.15",
+    "published": "2023-09-04T12:25:17.156Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-helper-module-imports"
+    },
+    "integrity": "sha512-0pYVBnDKZO2fnSPCrgM/6WMc7eS20Fbok+0r88fp+YtWVLZrp4CkafFGIp+W0VKw4a22sgebPT99y+FDNMdP4w==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/helper-module-transforms",
+    "version": "7.23.0",
+    "published": "2023-09-25T08:10:31.814Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-helper-module-transforms"
+    },
+    "integrity": "sha512-WhDWw1tdrlT0gMgUJSlX0IQvoO1eN279zrAUbVB+KpV2c3Tylz8+GnKOLllCS6Z/iZQEyVYxhZVUdPTqs2YYPw==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/helper-optimise-call-expression",
+    "version": "7.22.5",
+    "published": "2023-06-08T18:21:27.543Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-helper-optimise-call-expression"
+    },
+    "integrity": "sha512-HBwaojN0xFRx4yIvpwGqxiV2tUfl7401jlok564NgB9EHS1y6QT17FmKWm4ztqjeVdXLuC4fSvHc5ePpQjoTbw==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/helper-plugin-utils",
+    "version": "7.22.5",
+    "published": "2023-06-08T18:21:01.333Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-helper-plugin-utils"
+    },
+    "integrity": "sha512-uLls06UVKgFG9QD4OeFYLEGteMIAa5kpTPcFL28yuCIIzsf6ZyKZMllKVOCZFhiZ5ptnwX4mtKdWCBE/uT4amg==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/helper-remap-async-to-generator",
+    "version": "7.22.20",
+    "published": "2023-09-16T16:28:42.651Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-helper-remap-async-to-generator"
+    },
+    "integrity": "sha512-pBGyV4uBqOns+0UvhsTO8qgl8hO89PmiDYv+/COyp1aeMcmfrfruz+/nCMFiYyFF/Knn0yfrC85ZzNFjembFTw==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/helper-replace-supers",
+    "version": "7.22.20",
+    "published": "2023-09-16T16:28:42.640Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-helper-replace-supers"
+    },
+    "integrity": "sha512-qsW0In3dbwQUbK8kejJ4R7IHVGwHJlV6lpG6UA7a9hSa2YEiAib+N1T2kr6PEeUT+Fl7najmSOS6SmAwCHK6Tw==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/helper-simple-access",
+    "version": "7.22.5",
+    "published": "2023-06-08T18:21:27.886Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-helper-simple-access"
+    },
+    "integrity": "sha512-n0H99E/K+Bika3++WNL17POvo4rKWZ7lZEp1Q+fStVbUi8nxPQEBOlTmCOxW/0JsS56SKKQ+ojAe2pHKJHN35w==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/helper-skip-transparent-expression-wrappers",
+    "version": "7.22.5",
+    "published": "2023-06-08T18:21:27.913Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-helper-skip-transparent-expression-wrappers"
+    },
+    "integrity": "sha512-tK14r66JZKiC43p8Ki33yLBVJKlQDFoA8GYN67lWCDCqoL6EMMSuM9b+Iff2jHaM/RRFYl7K+iiru7hbRqNx8Q==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/helper-split-export-declaration",
+    "version": "7.22.6",
+    "published": "2023-07-04T07:48:49.402Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-helper-split-export-declaration"
+    },
+    "integrity": "sha512-AsUnxuLhRYsisFiaJwvp1QF+I3KjD5FOxut14q/GzovUe6orHLesW2C7d754kRm53h5gqrz6sFl6sxc4BVtE/g==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/helper-string-parser",
+    "version": "7.22.5",
+    "published": "2023-06-08T18:21:01.985Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-helper-string-parser"
+    },
+    "integrity": "sha512-mM4COjgZox8U+JcXQwPijIZLElkgEpO5rsERVDJTc2qfCDfERyob6k5WegS14SX18IIjv+XD+GrqNumY5JRCDw==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/helper-validator-identifier",
+    "version": "7.22.20",
+    "published": "2023-09-16T16:28:36.444Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-helper-validator-identifier"
+    },
+    "integrity": "sha512-Y4OZ+ytlatR8AI+8KZfKuL5urKp7qey08ha31L8b3BwewJAoJamTzyvxPR/5D+KkdJCGPq/+8TukHBlY10FX9A==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/helper-validator-option",
+    "version": "7.22.15",
+    "published": "2023-09-04T12:25:03.466Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-helper-validator-option"
+    },
+    "integrity": "sha512-bMn7RmyFjY/mdECUbgn9eoSY4vqvacUnS9i9vGAGttgFWesO6B4CYWA7XlpbWgBt71iv/hfbPlynohStqnu5hA==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/helper-wrap-function",
+    "version": "7.22.20",
+    "published": "2023-09-16T16:28:36.403Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-helper-wrap-function"
+    },
+    "integrity": "sha512-pms/UwkOpnQe/PDAEdV/d7dVCoBbB+R4FvYoHGZz+4VPcg7RtYy2KP7S2lbuWM6FCSgob5wshfGESbC/hzNXZw==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/helpers",
+    "version": "7.23.2",
+    "published": "2023-10-11T18:51:30.347Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-helpers"
+    },
+    "integrity": "sha512-lzchcp8SjTSVe/fPmLwtWVBFC7+Tbn8LGHDVfDp9JGxpAY5opSaEFgt8UQvrnECWOTdji2mOWMz1rOhkHscmGQ==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/highlight",
+    "version": "7.22.20",
+    "published": "2023-09-16T16:28:42.662Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-highlight"
+    },
+    "integrity": "sha512-dkdMCN3py0+ksCgYmGG8jKeGA/8Tk+gJwSYYlFGxG5lmhfKNoAy004YpLxpS1W2J8m/EK2Ew+yOs9pVRwO89mg==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/parser",
+    "version": "7.23.0",
+    "published": "2023-09-25T08:10:31.822Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-parser"
+    },
+    "integrity": "sha512-vvPKKdMemU85V9WE/l5wZEmImpCtLqbnTvqDS2U1fJ96KrxoW7KrXhNsNCblQlg8Ck4b85yxdTyelsMUgFUXiw==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression",
+    "version": "7.22.15",
+    "published": "2023-09-04T12:25:03.627Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-plugin-bugfix-safari-id-destructuring-collision-in-function-expression"
+    },
+    "integrity": "sha512-FB9iYlz7rURmRJyXRKEnalYPPdn87H5no108cyuQQyMwlpJ2SJtpIUBI27kdTin956pz+LPypkPVPUTlxOmrsg==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining",
+    "version": "7.22.15",
+    "published": "2023-09-04T12:25:11.713Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-plugin-bugfix-v8-spread-parameters-in-optional-chaining"
+    },
+    "integrity": "sha512-Hyph9LseGvAeeXzikV88bczhsrLrIZqDPxO+sSmAunMPaGrBGhfMWzCPYTtiW9t+HzSE2wtV8e5cc5P6r1xMDQ==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/plugin-proposal-private-property-in-object",
+    "version": "7.21.0-placeholder-for-preset-env.2",
+    "published": "2023-06-08T11:14:00.618Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel-plugin-proposal-private-property-in-object.git"
+    },
+    "integrity": "sha512-SOSkfJDddaM7mak6cPEpswyTRnuRltl429hMraQEglW+OkovnCzsiszTmsrlY//qLFjCpQDFRvjdm2wA5pPm9w==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/plugin-syntax-async-generators",
+    "version": "7.8.4",
+    "published": "2020-01-13T21:15:49.301Z",
+    "deprecated": null,
+    "repository": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-async-generators",
+    "integrity": "sha512-tycmZxkGfZaxhMRbXlPXuVFpdWlXpir2W4AMhSJgRKzk/eDlIXOhb2LHWoLpDF7TEHylV5zNhykX6KAgHJmTNw==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/plugin-syntax-class-properties",
+    "version": "7.12.13",
+    "published": "2021-02-03T01:10:30.638Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-plugin-syntax-class-properties"
+    },
+    "integrity": "sha512-fm4idjKla0YahUNgFNLCB0qySdsoPiZP3iQE3rky0mBUtMZ23yDJ9SJdg6dXTSDnulOVqiF3Hgr9nbXvXTQZYA==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/plugin-syntax-class-static-block",
+    "version": "7.14.5",
+    "published": "2021-06-09T23:11:42.208Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-plugin-syntax-class-static-block"
+    },
+    "integrity": "sha512-b+YyPmr6ldyNnM6sqYeMWE+bgJcJpO6yS4QD7ymxgH34GBPNDM/THBh8iunyvKIZztiwLH4CJZ0RxTk9emgpjw==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/plugin-syntax-dynamic-import",
+    "version": "7.8.3",
+    "published": "2020-01-13T21:12:33.805Z",
+    "deprecated": null,
+    "repository": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-dynamic-import",
+    "integrity": "sha512-5gdGbFon+PszYzqs83S3E5mpi7/y/8M9eC90MRTZfduQOYW76ig6SOSPNe41IG5LoP3FGBn2N0RjVDSQiS94kQ==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/plugin-syntax-export-namespace-from",
+    "version": "7.8.3",
+    "published": "2020-01-13T21:41:18.342Z",
+    "deprecated": null,
+    "repository": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-export-namespace-from",
+    "integrity": "sha512-MXf5laXo6c1IbEbegDmzGPwGNTsHZmEy6QGznu5Sh2UCWvueywb2ee+CCE4zQiZstxU9BMoQO9i6zUFSY0Kj0Q==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/plugin-syntax-import-assertions",
+    "version": "7.22.5",
+    "published": "2023-06-08T18:21:10.738Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-plugin-syntax-import-assertions"
+    },
+    "integrity": "sha512-rdV97N7KqsRzeNGoWUOK6yUsWarLjE5Su/Snk9IYPU9CwkWHs4t+rTGOvffTR8XGkJMTAdLfO0xVnXm8wugIJg==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/plugin-syntax-import-attributes",
+    "version": "7.22.5",
+    "published": "2023-06-08T18:21:11.373Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-plugin-syntax-import-attributes"
+    },
+    "integrity": "sha512-KwvoWDeNKPETmozyFE0P2rOLqh39EoQHNjqizrI5B8Vt0ZNS7M56s7dAiAqbYfiAYOuIzIh96z3iR2ktgu3tEg==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/plugin-syntax-import-meta",
+    "version": "7.10.4",
+    "published": "2020-06-30T13:11:46.202Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-plugin-syntax-import-meta"
+    },
+    "integrity": "sha512-Yqfm+XDx0+Prh3VSeEQCPU81yC+JWZ2pDPFSS4ZdpfZhp4MkFMaDC1UqseovEKwSUpnIL7+vK+Clp7bfh0iD7g==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/plugin-syntax-json-strings",
+    "version": "7.8.3",
+    "published": "2020-01-13T21:13:07.023Z",
+    "deprecated": null,
+    "repository": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-json-strings",
+    "integrity": "sha512-lY6kdGpWHvjoe2vk4WrAapEuBR69EMxZl+RoGRhrFGNYVK8mOPAW8VfbT/ZgrFbXlDNiiaxQnAtgVCZ6jv30EA==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/plugin-syntax-logical-assignment-operators",
+    "version": "7.10.4",
+    "published": "2020-06-30T13:11:47.198Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-plugin-syntax-logical-assignment-operators"
+    },
+    "integrity": "sha512-d8waShlpFDinQ5MtvGU9xDAOzKH47+FFoney2baFIoMr952hKOLp1HR7VszoZvOsV/4+RRszNY7D17ba0te0ig==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/plugin-syntax-nullish-coalescing-operator",
+    "version": "7.8.3",
+    "published": "2020-01-13T21:14:03.100Z",
+    "deprecated": null,
+    "repository": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-nullish-coalescing-operator",
+    "integrity": "sha512-aSff4zPII1u2QD7y+F8oDsz19ew4IGEJg9SVW+bqwpwtfFleiQDMdzA/R+UlWDzfnHFCxxleFT0PMIrR36XLNQ==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/plugin-syntax-numeric-separator",
+    "version": "7.10.4",
+    "published": "2020-06-30T13:11:49.810Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-plugin-syntax-numeric-separator"
+    },
+    "integrity": "sha512-9H6YdfkcK/uOnY/K7/aA2xpzaAgkQn37yzWUMRK7OaPOqOpGS1+n0H5hxT9AUw9EsSjPW8SVyMJwYRtWs3X3ug==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/plugin-syntax-object-rest-spread",
+    "version": "7.8.3",
+    "published": "2020-01-13T21:14:13.517Z",
+    "deprecated": null,
+    "repository": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-object-rest-spread",
+    "integrity": "sha512-XoqMijGZb9y3y2XskN+P1wUGiVwWZ5JmoDRwx5+3GmEplNyVM2s2Dg8ILFQm8rWM48orGy5YpI5Bl8U1y7ydlA==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/plugin-syntax-optional-catch-binding",
+    "version": "7.8.3",
+    "published": "2020-01-13T21:14:30.870Z",
+    "deprecated": null,
+    "repository": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-optional-catch-binding",
+    "integrity": "sha512-6VPD0Pc1lpTqw0aKoeRTMiB+kWhAoT24PA+ksWSBrFtl5SIRVpZlwN3NNPQjehA2E/91FV3RjLWoVTglWcSV3Q==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/plugin-syntax-optional-chaining",
+    "version": "7.8.3",
+    "published": "2020-01-13T21:14:43.325Z",
+    "deprecated": null,
+    "repository": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-optional-chaining",
+    "integrity": "sha512-KoK9ErH1MBlCPxV0VANkXW2/dw4vlbGDrFgz8bmUsBGYkFRcbRwMh6cIJubdPrkxRwuGdtCk0v/wPTKbQgBjkg==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/plugin-syntax-private-property-in-object",
+    "version": "7.14.5",
+    "published": "2021-06-09T23:11:53.125Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-plugin-syntax-private-property-in-object"
+    },
+    "integrity": "sha512-0wVnp9dxJ72ZUJDV27ZfbSj6iHLoytYZmh3rFcxNnvsJF3ktkzLDZPy/mA17HGsaQT3/DQsWYX1f1QGWkCoVUg==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/plugin-syntax-top-level-await",
+    "version": "7.14.5",
+    "published": "2021-06-09T23:11:55.826Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-plugin-syntax-top-level-await"
+    },
+    "integrity": "sha512-hx++upLv5U1rgYfwe1xBQUhRmU41NEvpUvrp8jkrSCdvGSnM5/qdRMtylJ6PG5OFkBaHkbTAKTnd3/YyESRHFw==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/plugin-syntax-unicode-sets-regex",
+    "version": "7.18.6",
+    "published": "2022-06-27T19:50:25.901Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-plugin-syntax-unicode-sets-regex"
+    },
+    "integrity": "sha512-727YkEAPwSIQTv5im8QHz3upqp92JTWhidIC81Tdx4VJYIte/VndKf1qKrfnnhPLiPghStWfvC/iFaMCQu7Nqg==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/plugin-transform-arrow-functions",
+    "version": "7.22.5",
+    "published": "2023-06-08T18:21:13.883Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-plugin-transform-arrow-functions"
+    },
+    "integrity": "sha512-26lTNXoVRdAnsaDXPpvCNUq+OVWEVC6bx7Vvz9rC53F2bagUWW4u4ii2+h8Fejfh7RYqPxn+libeFBBck9muEw==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/plugin-transform-async-generator-functions",
+    "version": "7.23.2",
+    "published": "2023-10-11T18:51:22.252Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-plugin-transform-async-generator-functions"
+    },
+    "integrity": "sha512-BBYVGxbDVHfoeXbOwcagAkOQAm9NxoTdMGfTqghu1GrvadSaw6iW3Je6IcL5PNOw8VwjxqBECXy50/iCQSY/lQ==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/plugin-transform-async-to-generator",
+    "version": "7.22.5",
+    "published": "2023-06-08T18:21:48.194Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-plugin-transform-async-to-generator"
+    },
+    "integrity": "sha512-b1A8D8ZzE/VhNDoV1MSJTnpKkCG5bJo+19R4o4oy03zM7ws8yEMK755j61Dc3EyvdysbqH5BOOTquJ7ZX9C6vQ==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/plugin-transform-block-scoped-functions",
+    "version": "7.22.5",
+    "published": "2023-06-08T18:21:13.941Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-plugin-transform-block-scoped-functions"
+    },
+    "integrity": "sha512-tdXZ2UdknEKQWKJP1KMNmuF5Lx3MymtMN/pvA+p/VEkhK8jVcQ1fzSy8KM9qRYhAf2/lV33hoMPKI/xaI9sADA==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/plugin-transform-block-scoping",
+    "version": "7.23.0",
+    "published": "2023-09-25T08:10:47.656Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-plugin-transform-block-scoping"
+    },
+    "integrity": "sha512-cOsrbmIOXmf+5YbL99/S49Y3j46k/T16b9ml8bm9lP6N9US5iQ2yBK7gpui1pg0V/WMcXdkfKbTb7HXq9u+v4g==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/plugin-transform-class-properties",
+    "version": "7.22.5",
+    "published": "2023-06-08T18:21:49.142Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-plugin-transform-class-properties"
+    },
+    "integrity": "sha512-nDkQ0NfkOhPTq8YCLiWNxp1+f9fCobEjCb0n8WdbNUBc4IB5V7P1QnX9IjpSoquKrXF5SKojHleVNs2vGeHCHQ==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/plugin-transform-class-static-block",
+    "version": "7.22.11",
+    "published": "2023-08-24T13:08:47.488Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-plugin-transform-class-static-block"
+    },
+    "integrity": "sha512-GMM8gGmqI7guS/llMFk1bJDkKfn3v3C4KHK9Yg1ey5qcHcOlKb0QvcMrgzvxo+T03/4szNh5lghY+fEC98Kq9g==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/plugin-transform-classes",
+    "version": "7.22.15",
+    "published": "2023-09-04T12:25:18.449Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-plugin-transform-classes"
+    },
+    "integrity": "sha512-VbbC3PGjBdE0wAWDdHM9G8Gm977pnYI0XpqMd6LrKISj8/DJXEsWqgRuTYaNE9Bv0JGhTZUzHDlMk18IpOuoqw==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/plugin-transform-computed-properties",
+    "version": "7.22.5",
+    "published": "2023-06-08T18:21:37.982Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-plugin-transform-computed-properties"
+    },
+    "integrity": "sha512-4GHWBgRf0krxPX+AaPtgBAlTgTeZmqDynokHOX7aqqAB4tHs3U2Y02zH6ETFdLZGcg9UQSD1WCmkVrE9ErHeOg==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/plugin-transform-destructuring",
+    "version": "7.23.0",
+    "published": "2023-09-25T08:10:48.284Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-plugin-transform-destructuring"
+    },
+    "integrity": "sha512-vaMdgNXFkYrB+8lbgniSYWHsgqK5gjaMNcc84bMIOMRLH0L9AqYq3hwMdvnyqj1OPqea8UtjPEuS/DCenah1wg==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/plugin-transform-dotall-regex",
+    "version": "7.22.5",
+    "published": "2023-06-08T18:21:37.814Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-plugin-transform-dotall-regex"
+    },
+    "integrity": "sha512-5/Yk9QxCQCl+sOIB1WelKnVRxTJDSAIxtJLL2/pqL14ZVlbH0fUQUZa/T5/UnQtBNgghR7mfB8ERBKyKPCi7Vw==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/plugin-transform-duplicate-keys",
+    "version": "7.22.5",
+    "published": "2023-06-08T18:21:15.291Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-plugin-transform-duplicate-keys"
+    },
+    "integrity": "sha512-dEnYD+9BBgld5VBXHnF/DbYGp3fqGMsyxKbtD1mDyIA7AkTSpKXFhCVuj/oQVOoALfBs77DudA0BE4d5mcpmqw==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/plugin-transform-dynamic-import",
+    "version": "7.22.11",
+    "published": "2023-08-24T13:08:37.896Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-plugin-transform-dynamic-import"
+    },
+    "integrity": "sha512-g/21plo58sfteWjaO0ZNVb+uEOkJNjAaHhbejrnBmu011l/eNDScmkbjCC3l4FKb10ViaGU4aOkFznSu2zRHgA==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/plugin-transform-exponentiation-operator",
+    "version": "7.22.5",
+    "published": "2023-06-08T18:21:33.298Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-plugin-transform-exponentiation-operator"
+    },
+    "integrity": "sha512-vIpJFNM/FjZ4rh1myqIya9jXwrwwgFRHPjT3DkUA9ZLHuzox8jiXkOLvwm1H+PQIP3CqfC++WPKeuDi0Sjdj1g==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/plugin-transform-export-namespace-from",
+    "version": "7.22.11",
+    "published": "2023-08-24T13:08:38.149Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-plugin-transform-export-namespace-from"
+    },
+    "integrity": "sha512-xa7aad7q7OiT8oNZ1mU7NrISjlSkVdMbNxn9IuLZyL9AJEhs1Apba3I+u5riX1dIkdptP5EKDG5XDPByWxtehw==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/plugin-transform-for-of",
+    "version": "7.22.15",
+    "published": "2023-09-04T12:25:06.236Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-plugin-transform-for-of"
+    },
+    "integrity": "sha512-me6VGeHsx30+xh9fbDLLPi0J1HzmeIIyenoOQHuw2D4m2SAU3NrspX5XxJLBpqn5yrLzrlw2Iy3RA//Bx27iOA==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/plugin-transform-function-name",
+    "version": "7.22.5",
+    "published": "2023-06-08T18:21:41.228Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-plugin-transform-function-name"
+    },
+    "integrity": "sha512-UIzQNMS0p0HHiQm3oelztj+ECwFnj+ZRV4KnguvlsD2of1whUeM6o7wGNj6oLwcDoAXQ8gEqfgC24D+VdIcevg==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/plugin-transform-json-strings",
+    "version": "7.22.11",
+    "published": "2023-08-24T13:08:38.083Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-plugin-transform-json-strings"
+    },
+    "integrity": "sha512-CxT5tCqpA9/jXFlme9xIBCc5RPtdDq3JpkkhgHQqtDdiTnTI0jtZ0QzXhr5DILeYifDPp2wvY2ad+7+hLMW5Pw==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/plugin-transform-literals",
+    "version": "7.22.5",
+    "published": "2023-06-08T18:21:17.513Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-plugin-transform-literals"
+    },
+    "integrity": "sha512-fTLj4D79M+mepcw3dgFBTIDYpbcB9Sm0bpm4ppXPaO+U+PKFFyV9MGRvS0gvGw62sd10kT5lRMKXAADb9pWy8g==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/plugin-transform-logical-assignment-operators",
+    "version": "7.22.11",
+    "published": "2023-08-24T13:08:38.250Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-plugin-transform-logical-assignment-operators"
+    },
+    "integrity": "sha512-qQwRTP4+6xFCDV5k7gZBF3C31K34ut0tbEcTKxlX/0KXxm9GLcO14p570aWxFvVzx6QAfPgq7gaeIHXJC8LswQ==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/plugin-transform-member-expression-literals",
+    "version": "7.22.5",
+    "published": "2023-06-08T18:21:17.253Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-plugin-transform-member-expression-literals"
+    },
+    "integrity": "sha512-RZEdkNtzzYCFl9SE9ATaUMTj2hqMb4StarOJLrZRbqqU4HSBE7UlBw9WBWQiDzrJZJdUWiMTVDI6Gv/8DPvfew==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/plugin-transform-modules-amd",
+    "version": "7.23.0",
+    "published": "2023-09-25T08:11:29.307Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-plugin-transform-modules-amd"
+    },
+    "integrity": "sha512-xWT5gefv2HGSm4QHtgc1sYPbseOyf+FFDo2JbpE25GWl5BqTGO9IMwTYJRoIdjsF85GE+VegHxSCUt5EvoYTAw==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/plugin-transform-modules-commonjs",
+    "version": "7.23.0",
+    "published": "2023-09-25T08:11:29.303Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-plugin-transform-modules-commonjs"
+    },
+    "integrity": "sha512-32Xzss14/UVc7k9g775yMIvkVK8xwKE0DPdP5JTapr3+Z9w4tzeOuLNY6BXDQR6BdnzIlXnCGAzsk/ICHBLVWQ==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/plugin-transform-modules-systemjs",
+    "version": "7.23.0",
+    "published": "2023-09-25T08:11:32.809Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-plugin-transform-modules-systemjs"
+    },
+    "integrity": "sha512-qBej6ctXZD2f+DhlOC9yO47yEYgUh5CZNz/aBoH4j/3NOlRfJXJbY7xDQCqQVf9KbrqGzIWER1f23doHGrIHFg==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/plugin-transform-modules-umd",
+    "version": "7.22.5",
+    "published": "2023-06-08T18:21:46.907Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-plugin-transform-modules-umd"
+    },
+    "integrity": "sha512-+S6kzefN/E1vkSsKx8kmQuqeQsvCKCd1fraCM7zXm4SFoggI099Tr4G8U81+5gtMdUeMQ4ipdQffbKLX0/7dBQ==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/plugin-transform-named-capturing-groups-regex",
+    "version": "7.22.5",
+    "published": "2023-06-08T18:21:37.774Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-plugin-transform-named-capturing-groups-regex"
+    },
+    "integrity": "sha512-YgLLKmS3aUBhHaxp5hi1WJTgOUb/NCuDHzGT9z9WTt3YG+CPRhJs6nprbStx6DnWM4dh6gt7SU3sZodbZ08adQ==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/plugin-transform-new-target",
+    "version": "7.22.5",
+    "published": "2023-06-08T18:21:17.368Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-plugin-transform-new-target"
+    },
+    "integrity": "sha512-AsF7K0Fx/cNKVyk3a+DW0JLo+Ua598/NxMRvxDnkpCIGFh43+h/v2xyhRUYf6oD8gE4QtL83C7zZVghMjHd+iw==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/plugin-transform-nullish-coalescing-operator",
+    "version": "7.22.11",
+    "published": "2023-08-24T13:08:39.220Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-plugin-transform-nullish-coalescing-operator"
+    },
+    "integrity": "sha512-YZWOw4HxXrotb5xsjMJUDlLgcDXSfO9eCmdl1bgW4+/lAGdkjaEvOnQ4p5WKKdUgSzO39dgPl0pTnfxm0OAXcg==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/plugin-transform-numeric-separator",
+    "version": "7.22.11",
+    "published": "2023-08-24T13:08:39.531Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-plugin-transform-numeric-separator"
+    },
+    "integrity": "sha512-3dzU4QGPsILdJbASKhF/V2TVP+gJya1PsueQCxIPCEcerqF21oEcrob4mzjsp2Py/1nLfF5m+xYNMDpmA8vffg==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/plugin-transform-object-rest-spread",
+    "version": "7.22.15",
+    "published": "2023-09-04T12:25:18.832Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-plugin-transform-object-rest-spread"
+    },
+    "integrity": "sha512-fEB+I1+gAmfAyxZcX1+ZUwLeAuuf8VIg67CTznZE0MqVFumWkh8xWtn58I4dxdVf080wn7gzWoF8vndOViJe9Q==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/plugin-transform-object-super",
+    "version": "7.22.5",
+    "published": "2023-06-08T18:21:47.038Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-plugin-transform-object-super"
+    },
+    "integrity": "sha512-klXqyaT9trSjIUrcsYIfETAzmOEZL3cBYqOYLJxBHfMFFggmXOv+NYSX/Jbs9mzMVESw/WycLFPRx8ba/b2Ipw==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/plugin-transform-optional-catch-binding",
+    "version": "7.22.11",
+    "published": "2023-08-24T13:08:40.487Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-plugin-transform-optional-catch-binding"
+    },
+    "integrity": "sha512-rli0WxesXUeCJnMYhzAglEjLWVDF6ahb45HuprcmQuLidBJFWjNnOzssk2kuc6e33FlLaiZhG/kUIzUMWdBKaQ==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/plugin-transform-optional-chaining",
+    "version": "7.23.0",
+    "published": "2023-09-25T08:10:47.853Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-plugin-transform-optional-chaining"
+    },
+    "integrity": "sha512-sBBGXbLJjxTzLBF5rFWaikMnOGOk/BmK6vVByIdEggZ7Vn6CvWXZyRkkLFK6WE0IF8jSliyOkUN6SScFgzCM0g==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/plugin-transform-parameters",
+    "version": "7.22.15",
+    "published": "2023-09-04T12:25:06.620Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-plugin-transform-parameters"
+    },
+    "integrity": "sha512-hjk7qKIqhyzhhUvRT683TYQOFa/4cQKwQy7ALvTpODswN40MljzNDa0YldevS6tGbxwaEKVn502JmY0dP7qEtQ==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/plugin-transform-private-methods",
+    "version": "7.22.5",
+    "published": "2023-06-08T18:21:49.476Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-plugin-transform-private-methods"
+    },
+    "integrity": "sha512-PPjh4gyrQnGe97JTalgRGMuU4icsZFnWkzicB/fUtzlKUqvsWBKEpPPfr5a2JiyirZkHxnAqkQMO5Z5B2kK3fA==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/plugin-transform-private-property-in-object",
+    "version": "7.22.11",
+    "published": "2023-08-24T13:08:47.581Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-plugin-transform-private-property-in-object"
+    },
+    "integrity": "sha512-sSCbqZDBKHetvjSwpyWzhuHkmW5RummxJBVbYLkGkaiTOWGxml7SXt0iWa03bzxFIx7wOj3g/ILRd0RcJKBeSQ==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/plugin-transform-property-literals",
+    "version": "7.22.5",
+    "published": "2023-06-08T18:21:19.832Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-plugin-transform-property-literals"
+    },
+    "integrity": "sha512-TiOArgddK3mK/x1Qwf5hay2pxI6wCZnvQqrFSqbtg1GLl2JcNMitVH/YnqjP+M31pLUeTfzY1HAXFDnUBV30rQ==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/plugin-transform-regenerator",
+    "version": "7.22.10",
+    "published": "2023-08-07T17:25:14.312Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-plugin-transform-regenerator"
+    },
+    "integrity": "sha512-F28b1mDt8KcT5bUyJc/U9nwzw6cV+UmTeRlXYIl2TNqMMJif0Jeey9/RQ3C4NOd2zp0/TRsDns9ttj2L523rsw==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/plugin-transform-reserved-words",
+    "version": "7.22.5",
+    "published": "2023-06-08T18:21:21.830Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-plugin-transform-reserved-words"
+    },
+    "integrity": "sha512-DTtGKFRQUDm8svigJzZHzb/2xatPc6TzNvAIJ5GqOKDsGFYgAskjRulbR/vGsPKq3OPqtexnz327qYpP57RFyA==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/plugin-transform-shorthand-properties",
+    "version": "7.22.5",
+    "published": "2023-06-08T18:21:22.199Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-plugin-transform-shorthand-properties"
+    },
+    "integrity": "sha512-vM4fq9IXHscXVKzDv5itkO1X52SmdFBFcMIBZ2FRn2nqVYqw6dBexUgMvAjHW+KXpPPViD/Yo3GrDEBaRC0QYA==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/plugin-transform-spread",
+    "version": "7.22.5",
+    "published": "2023-06-08T18:21:34.654Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-plugin-transform-spread"
+    },
+    "integrity": "sha512-5ZzDQIGyvN4w8+dMmpohL6MBo+l2G7tfC/O2Dg7/hjpgeWvUx8FzfeOKxGog9IimPa4YekaQ9PlDqTLOljkcxg==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/plugin-transform-sticky-regex",
+    "version": "7.22.5",
+    "published": "2023-06-08T18:21:22.479Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-plugin-transform-sticky-regex"
+    },
+    "integrity": "sha512-zf7LuNpHG0iEeiyCNwX4j3gDg1jgt1k3ZdXBKbZSoA3BbGQGvMiSvfbZRR3Dr3aeJe3ooWFZxOOG3IRStYp2Bw==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/plugin-transform-template-literals",
+    "version": "7.22.5",
+    "published": "2023-06-08T18:21:22.894Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-plugin-transform-template-literals"
+    },
+    "integrity": "sha512-5ciOehRNf+EyUeewo8NkbQiUs4d6ZxiHo6BcBcnFlgiJfu16q0bQUw9Jvo0b0gBKFG1SMhDSjeKXSYuJLeFSMA==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/plugin-transform-typeof-symbol",
+    "version": "7.22.5",
+    "published": "2023-06-08T18:21:23.258Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-plugin-transform-typeof-symbol"
+    },
+    "integrity": "sha512-bYkI5lMzL4kPii4HHEEChkD0rkc+nvnlR6+o/qdqR6zrm0Sv/nodmyLhlq2DO0YKLUNd2VePmPRjJXSBh9OIdA==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/plugin-transform-unicode-escapes",
+    "version": "7.22.10",
+    "published": "2023-08-07T17:25:14.537Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-plugin-transform-unicode-escapes"
+    },
+    "integrity": "sha512-lRfaRKGZCBqDlRU3UIFovdp9c9mEvlylmpod0/OatICsSfuQ9YFthRo1tpTkGsklEefZdqlEFdY4A2dwTb6ohg==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/plugin-transform-unicode-property-regex",
+    "version": "7.22.5",
+    "published": "2023-06-08T18:21:38.994Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-plugin-transform-unicode-property-regex"
+    },
+    "integrity": "sha512-HCCIb+CbJIAE6sXn5CjFQXMwkCClcOfPCzTlilJ8cUatfzwHlWQkbtV0zD338u9dZskwvuOYTuuaMaA8J5EI5A==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/plugin-transform-unicode-regex",
+    "version": "7.22.5",
+    "published": "2023-06-08T18:21:39.801Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-plugin-transform-unicode-regex"
+    },
+    "integrity": "sha512-028laaOKptN5vHJf9/Arr/HiJekMd41hOEZYvNsrsXqJ7YPYuX2bQxh31fkZzGmq3YqHRJzYFFAVYvKfMPKqyg==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/plugin-transform-unicode-sets-regex",
+    "version": "7.22.5",
+    "published": "2023-06-08T18:21:39.921Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-plugin-transform-unicode-sets-regex"
+    },
+    "integrity": "sha512-lhMfi4FC15j13eKrh3DnYHjpGj6UKQHtNKTbtc1igvAhRy4+kLhV07OpLcsN0VgDEw/MjAvJO4BdMJsHwMhzCg==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/preset-env",
+    "version": "7.23.2",
+    "published": "2023-10-11T18:51:30.059Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-preset-env"
+    },
+    "integrity": "sha512-BW3gsuDD+rvHL2VO2SjAUNTBe5YrjsTiDyqamPDWY723na3/yPQ65X5oQkFVJZ0o50/2d+svm1rkPoJeR1KxVQ==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/preset-modules",
+    "version": "0.1.6-no-external-plugins",
+    "published": "2023-07-21T17:36:24.876Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/preset-modules.git"
+    },
+    "integrity": "sha512-HrcgcIESLm9aIR842yhJ5RWan/gebQUJ6E/E5+rf0y9o6oj7w0Br+sWuL6kEQ/o/AdfvR1Je9jG18/gnpwjEyA==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/regjsgen",
+    "version": "0.8.0",
+    "published": "2023-01-25T12:04:29.186Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/bnjmnt4n/regjsgen.git"
+    },
+    "integrity": "sha512-x/rqGMdzj+fWZvCOYForTghzbtqPDZ5gPwaoNGHdgDfF2QA/XZbCBp4Moo5scrkAMPhB7z26XM/AaHuIJdgauA==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/runtime",
+    "version": "7.23.2",
+    "published": "2023-10-11T18:51:24.134Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-runtime"
+    },
+    "integrity": "sha512-mM8eg4yl5D6i3lu2QKPuPH4FArvJ8KhTofbE7jwMUv9KX5mBvwPAqnV3MlyBNqdp9RyRKP6Yck8TrfYrPvX3bg==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/template",
+    "version": "7.22.15",
+    "published": "2023-09-04T12:25:18.841Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-template"
+    },
+    "integrity": "sha512-QPErUVm4uyJa60rkI73qneDacvdvzxshT3kksGqlGWYdOTIUOwJ7RDUL8sGqslY1uXWSL6xMFKEXDS3ox2uF0w==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/traverse",
+    "version": "7.23.2",
+    "published": "2023-10-11T18:51:28.344Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-traverse"
+    },
+    "integrity": "sha512-azpe59SQ48qG6nu2CzcMLbxUudtN+dOM9kDbUqGq3HXUJRlo7i8fvPoxQUzYgLZ4cMVmuZgm8vvBpNeRhd6XSw==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@babel/types",
+    "version": "7.23.0",
+    "published": "2023-09-25T08:11:07.654Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-types"
+    },
+    "integrity": "sha512-0oIyUfKoI3mSqMvsxBdclDwxXKXAUA8v/apZbc+iSyARYou1o8ZGDxbUYyLFoW2arqS2jDGqJuZvv1d/io1axg==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@discoveryjs/json-ext",
+    "version": "0.5.7",
+    "published": "2022-03-09T17:28:40.118Z",
+    "deprecated": null,
+    "repository": "discoveryjs/json-ext",
+    "integrity": "sha512-dBVuXR082gk3jsFp7Rd/JI4kytwGHecnCoTtXFb7DB6CNHp4rg5k1bhg0nWdLGLnOV71lmDzGQaLMy8iPLY0pw==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@jridgewell/gen-mapping",
+    "version": "0.3.3",
+    "published": "2023-04-07T02:42:47.543Z",
+    "deprecated": null,
+    "repository": "https://github.com/jridgewell/gen-mapping",
+    "integrity": "sha512-HLhSWOLRi875zjjMG/r+Nv0oCW8umGb0BgEhyX3dDX3egwZtB8PqLnjz3yedt8R5StBrzcg4aBpnh8UA9D1BoQ==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@jridgewell/resolve-uri",
+    "version": "3.1.1",
+    "published": "2023-04-07T02:43:12.012Z",
+    "deprecated": null,
+    "repository": "https://github.com/jridgewell/resolve-uri",
+    "integrity": "sha512-dSYZh7HhCDtCKm4QakX0xFpsRDqjjtZf/kjI/v3T3Nwt5r8/qz/M19F9ySyOqU94SXBmeG9ttTul+YnR4LOxFA==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@jridgewell/set-array",
+    "version": "1.1.2",
+    "published": "2022-06-26T15:44:09.141Z",
+    "deprecated": null,
+    "repository": "https://github.com/jridgewell/set-array",
+    "integrity": "sha512-xnkseuNADM0gt2bs+BvhO0p78Mk762YnZdsuzFV018NoG1Sj1SCQvpSqa7XUaTam5vAGasABV9qXASMKnFMwMw==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@jridgewell/source-map",
+    "version": "0.3.5",
+    "published": "2023-07-03T19:07:28.181Z",
+    "deprecated": null,
+    "repository": "https://github.com/jridgewell/source-map",
+    "integrity": "sha512-UTYAUj/wviwdsMfzoSJspJxbkH5o1snzwX0//0ENX1u/55kkZZkcTZP6u9bwKGkv+dkk9at4m1Cpt0uY80kcpQ==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@jridgewell/sourcemap-codec",
+    "version": "1.4.15",
+    "published": "2023-04-07T02:43:01.666Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jridgewell/sourcemap-codec.git"
+    },
+    "integrity": "sha512-eF2rxCRulEKXHTRiDrDy6erMYWqNw4LPdQ8UQA4huuxaQsVeRPFl2oM8oDGxMFhJUWZf9McpLtJasDDZb/Bpeg==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@jridgewell/trace-mapping",
+    "version": "0.3.20",
+    "published": "2023-10-17T20:15:05.167Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jridgewell/trace-mapping.git"
+    },
+    "integrity": "sha512-R8LcPeWZol2zR8mmH3JeKQ6QRCFb7XgUhV9ZlGhHLGyg4wpPiPZNQOOWhFZhxKw8u//yTbNGI42Bx/3paXEQ+Q==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@types/eslint",
+    "version": "8.44.7",
+    "published": "2023-11-07T02:21:57.842Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+      "directory": "types/eslint"
+    },
+    "integrity": "sha512-f5ORu2hcBbKei97U73mf+l9t4zTGl74IqZ0GQk4oVea/VS8tQZYkUveSYojk+frraAVYId0V2WC9O4PTNru2FQ==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@types/eslint-scope",
+    "version": "3.7.7",
+    "published": "2023-11-07T02:22:30.403Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+      "directory": "types/eslint-scope"
+    },
+    "integrity": "sha512-MzMFlSLBqNF2gcHWO0G1vP/YQyfvrxZ0bF+u7mzUdZ1/xK4A4sru+nraZz5i3iEIk1l1uyicaDVTB4QbbEkAYg==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@types/estree",
+    "version": "1.0.5",
+    "published": "2023-11-07T02:23:55.578Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+      "directory": "types/estree"
+    },
+    "integrity": "sha512-/kYRxGDLWzHOB7q+wtSUQlFrtcdUccpfy+X+9iMBpHK8QLLhx2wIPYuS5DYtR9Wa/YlZAbIovy7qVdB1Aq6Lyw==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@types/json-schema",
+    "version": "7.0.15",
+    "published": "2023-11-07T08:49:23.527Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+      "directory": "types/json-schema"
+    },
+    "integrity": "sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@types/node",
+    "version": "20.9.0",
+    "published": "2023-11-07T20:27:06.888Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+      "directory": "types/node"
+    },
+    "integrity": "sha512-nekiGu2NDb1BcVofVcEKMIwzlx4NjHlcjhoxxKBNLtz15Y1z7MYf549DFvkHSId02Ax6kGwWntIBPC3l/JZcmw==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@webassemblyjs/ast",
+    "version": "1.11.6",
+    "published": "2023-05-09T15:10:02.088Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/xtuc/webassemblyjs.git"
+    },
+    "integrity": "sha512-IN1xI7PwOvLPgjcf180gC1bqn3q/QaOCwYUahIOhbYUu8KA/3tw2RT/T0Gidi1l7Hhj5D/INhJxiICObqpMu4Q==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@webassemblyjs/floating-point-hex-parser",
+    "version": "1.11.6",
+    "published": "2023-05-09T15:10:19.856Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/xtuc/webassemblyjs.git"
+    },
+    "integrity": "sha512-ejAj9hfRJ2XMsNHk/v6Fu2dGS+i4UaXBXGemOfQ/JfQ6mdQg/WXtwleQRLLS4OvfDhv8rYnVwH27YJLMyYsxhw==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@webassemblyjs/helper-api-error",
+    "version": "1.11.6",
+    "published": "2023-05-09T15:10:23.296Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/xtuc/webassemblyjs.git",
+      "directory": "packages/helper-api-error"
+    },
+    "integrity": "sha512-o0YkoP4pVu4rN8aTJgAyj9hC2Sv5UlkzCHhxqWj8butaLvnpdc2jOwh4ewE6CX0txSfLn/UYaV/pheS2Txg//Q==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@webassemblyjs/helper-buffer",
+    "version": "1.11.6",
+    "published": "2023-05-09T15:10:27.242Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/xtuc/webassemblyjs.git"
+    },
+    "integrity": "sha512-z3nFzdcp1mb8nEOFFk8DrYLpHvhKC3grJD2ardfKOzmbmJvEf/tPIqCY+sNcwZIY8ZD7IkB2l7/pqhUhqm7hLA==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@webassemblyjs/helper-numbers",
+    "version": "1.11.6",
+    "published": "2023-05-09T15:10:43.063Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/xtuc/webassemblyjs.git"
+    },
+    "integrity": "sha512-vUIhZ8LZoIWHBohiEObxVm6hwP034jwmc9kuq5GdHZH0wiLVLIPcMCdpJzG4C11cHoQ25TFIQj9kaVADVX7N3g==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@webassemblyjs/helper-wasm-bytecode",
+    "version": "1.11.6",
+    "published": "2023-05-09T15:10:51.007Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/xtuc/webassemblyjs.git"
+    },
+    "integrity": "sha512-sFFHKwcmBprO9e7Icf0+gddyWYDViL8bpPjJJl0WHxCdETktXdmtWLGVzoHbqUcY4Be1LkNfwTmXOJUFZYSJdA==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@webassemblyjs/helper-wasm-section",
+    "version": "1.11.6",
+    "published": "2023-05-09T15:10:53.652Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/xtuc/webassemblyjs.git"
+    },
+    "integrity": "sha512-LPpZbSOwTpEC2cgn4hTydySy1Ke+XEu+ETXuoyvuyezHO3Kjdu90KK95Sh9xTbmjrCsUwvWwCOQQNta37VrS9g==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@webassemblyjs/ieee754",
+    "version": "1.11.6",
+    "published": "2023-05-09T15:10:56.379Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/xtuc/webassemblyjs.git",
+      "directory": "packages/ieee754"
+    },
+    "integrity": "sha512-LM4p2csPNvbij6U1f19v6WR56QZ8JcHg3QIJTlSwzFcmx6WSORicYj6I63f9yU1kEUtrpG+kjkiIAkevHpDXrg==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@webassemblyjs/leb128",
+    "version": "1.11.6",
+    "published": "2023-05-09T15:10:59.121Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/xtuc/webassemblyjs.git",
+      "directory": "packages/leb128"
+    },
+    "integrity": "sha512-m7a0FhE67DQXgouf1tbN5XQcdWoNgaAuoULHIfGFIEVKA6tu/edls6XnIlkmS6FrXAquJRPni3ZZKjw6FSPjPQ==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@webassemblyjs/utf8",
+    "version": "1.11.6",
+    "published": "2023-05-09T15:11:16.387Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/xtuc/webassemblyjs.git"
+    },
+    "integrity": "sha512-vtXf2wTQ3+up9Zsg8sa2yWiQpzSsMyXj0qViVP6xKGCUT8p8YJ6HqI7l5eCnWx1T/FYdsv07HQs2wTFbbof/RA==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@webassemblyjs/wasm-edit",
+    "version": "1.11.6",
+    "published": "2023-05-09T15:11:21.877Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/xtuc/webassemblyjs.git"
+    },
+    "integrity": "sha512-Ybn2I6fnfIGuCR+Faaz7YcvtBKxvoLV3Lebn1tM4o/IAJzmi9AWYIPWpyBfU8cC+JxAO57bk4+zdsTjJR+VTOw==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@webassemblyjs/wasm-gen",
+    "version": "1.11.6",
+    "published": "2023-05-09T15:11:24.425Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/xtuc/webassemblyjs.git"
+    },
+    "integrity": "sha512-3XOqkZP/y6B4F0PBAXvI1/bky7GryoogUtfwExeP/v7Nzwo1QLcq5oQmpKlftZLbT+ERUOAZVQjuNVak6UXjPA==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@webassemblyjs/wasm-opt",
+    "version": "1.11.6",
+    "published": "2023-05-09T15:11:26.862Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/xtuc/webassemblyjs.git"
+    },
+    "integrity": "sha512-cOrKuLRE7PCe6AsOVl7WasYf3wbSo4CeOk6PkrjS7g57MFfVUF9u6ysQBBODX0LdgSvQqRiGz3CXvIDKcPNy4g==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@webassemblyjs/wasm-parser",
+    "version": "1.11.6",
+    "published": "2023-05-09T15:11:29.469Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/xtuc/webassemblyjs.git"
+    },
+    "integrity": "sha512-6ZwPeGzMJM3Dqp3hCsLgESxBGtT/OeCvCZ4TA1JUPYgmhAx38tTPR9JaKy0S5H3evQpO/h2uWs2j6Yc/fjkpTQ==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@webassemblyjs/wast-printer",
+    "version": "1.11.6",
+    "published": "2023-05-09T15:11:53.582Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/xtuc/webassemblyjs.git"
+    },
+    "integrity": "sha512-JM7AhRcE+yW2GWYaKeHL5vt4xqee5N2WcezptmgyhNS+ScggqcT1OtXykhAb13Sn5Yas0j2uv9tHgrjwvzAP4A==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@webpack-cli/configtest",
+    "version": "1.2.0",
+    "published": "2022-06-13T00:40:00.606Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/webpack/webpack-cli.git"
+    },
+    "integrity": "sha512-4FB8Tj6xyVkyqjj1OaTqCjXYULB9FMkqQ8yGrZjRDrYh0nOE+7Lhs45WioWQQMV+ceFlE368Ukhe6xdvJM9Egg==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@webpack-cli/info",
+    "version": "1.5.0",
+    "published": "2022-06-13T00:40:00.655Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/webpack/webpack-cli.git"
+    },
+    "integrity": "sha512-e8tSXZpw2hPl2uMJY6fsMswaok5FdlGNRTktvFk2sD8RjH0hE2+XistawJx1vmKteh4NmGmNUrp+Tb2w+udPcQ==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@webpack-cli/serve",
+    "version": "1.7.0",
+    "published": "2022-06-13T00:40:00.592Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/webpack/webpack-cli.git"
+    },
+    "integrity": "sha512-oxnCNGj88fL+xzV+dacXs44HcDwf1ovs3AuEzvP7mqXw7fQntqIhQ1BRmynh4qEKQSSSRSWVyXRjmTbZIX9V2Q==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@xtuc/ieee754",
+    "version": "1.2.0",
+    "published": "2018-07-19T16:10:45.976Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/feross/ieee754.git"
+    },
+    "integrity": "sha512-DX8nKgqcGwsc0eJSqYt5lwP4DH5FlHnmuWWBRy7X0NcaGR0ZtuyeESgMwTYVEtxmsNGY+qit4QYT/MIYTOTPeA==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "@xtuc/long",
+    "version": "4.2.2",
+    "published": "2019-02-18T08:20:26.462Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/dcodeIO/long.js.git"
+    },
+    "integrity": "sha512-NuHqBY1PB/D8xU6s/thBgOAiAP7HOYDQ32+BFZILJ8ivkUkAHQnWfn6WhL79Owj1qmUnoN/YPhktdIoucipkAQ==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "acorn",
+    "version": "8.11.2",
+    "published": "2023-10-27T08:05:30.548Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/acornjs/acorn.git"
+    },
+    "integrity": "sha512-nc0Axzp/0FILLEVsm4fNwLCwMttvhEI263QtVPQcbpfZZ3ts0hLsZGOpE6czNlid7CJ9MlyH8reXkpsf3YUY4w==",
+    "lifecycleScripts": {
+      "prepare": "cd ..; npm run build:main"
+    },
+    "dev": true
+  },
+  {
+    "name": "acorn-import-assertions",
+    "version": "1.9.0",
+    "published": "2023-05-12T13:11:46.801Z",
+    "deprecated": "package has been renamed to acorn-import-attributes",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/xtuc/acorn-import-assertions"
+    },
+    "integrity": "sha512-cmMwop9x+8KFhxvKrKfPYmN6/pKTYYHBqLa0DfvVZcKMJWNyWLnaqND7dx/qn66R7ewM1UX5XMaDVP5wlVTaVA==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "ajv",
+    "version": "6.12.6",
+    "published": "2020-10-10T17:01:40.565Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/ajv-validator/ajv.git"
+    },
+    "integrity": "sha512-j3fVLgvTo527anyYyJOGTYJbG+vnnQYvE0m5mmkc1TK+nxAppkCLMIL0aZ4dblVCNoGShhm+kzE4ZUykBoMg4g==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "ajv-keywords",
+    "version": "3.5.2",
+    "published": "2020-07-27T14:14:03.393Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/epoberezkin/ajv-keywords.git"
+    },
+    "integrity": "sha512-5p6WTN0DdTGVQk6VjcEju19IgaHudalcfabD7yhDGeA6bcQnmL+CpveLJq/3hvfwd1aof6L386Ougkx6RfyMIQ==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "ansi-styles",
+    "version": "3.2.1",
+    "published": "2018-03-02T09:40:00.702Z",
+    "deprecated": null,
+    "repository": "chalk/ansi-styles",
+    "integrity": "sha512-VT0ZI6kZRdTh8YyJw3SMbYm/u+NqfsAxEpWO0Pf9sq8/e94WxxOpPKx9FR1FlyCtOVDNOQ+8ntlqFxiRc+r5qA==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "babel-loader",
+    "version": "8.3.0",
+    "published": "2022-11-03T14:28:32.010Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel-loader.git"
+    },
+    "integrity": "sha512-H8SvsMF+m9t15HNLMipppzkC+Y2Yq+v3SonZyU70RBL/h1gxPkH08Ot8pEE9Z4Kd+czyWJClmFS8qzIP9OZ04Q==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "babel-plugin-polyfill-corejs2",
+    "version": "0.4.6",
+    "published": "2023-10-11T07:02:21.935Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel-polyfills.git",
+      "directory": "packages/babel-plugin-polyfill-corejs2"
+    },
+    "integrity": "sha512-jhHiWVZIlnPbEUKSSNb9YoWcQGdlTLq7z1GHL4AjFxaoOUMuuEVJ+Y4pAaQUGOGk93YsVCKPbqbfw3m0SM6H8Q==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "babel-plugin-polyfill-corejs3",
+    "version": "0.8.6",
+    "published": "2023-10-23T10:53:24.728Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel-polyfills.git",
+      "directory": "packages/babel-plugin-polyfill-corejs3"
+    },
+    "integrity": "sha512-leDIc4l4tUgU7str5BWLS2h8q2N4Nf6lGZP6UrNDxdtfF2g69eJ5L0H7S8A5Ln/arfFAfHor5InAdZuIOwZdgQ==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "babel-plugin-polyfill-regenerator",
+    "version": "0.5.3",
+    "published": "2023-10-11T07:02:21.871Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel-polyfills.git",
+      "directory": "packages/babel-plugin-polyfill-regenerator"
+    },
+    "integrity": "sha512-8sHeDOmXC8csczMrYEOf0UTNa4yE2SxV5JGeT/LP1n0OYVDUUFPxG9vdk2AlDlIit4t+Kf0xCtpgXPBwnn/9pw==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "big.js",
+    "version": "5.2.2",
+    "published": "2018-10-18T10:52:46.395Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/MikeMcl/big.js.git"
+    },
+    "integrity": "sha512-vyL2OymJxmarO8gxMr0mhChsO9QGwhynfuu4+MHTAW6czfq9humCB7rKpUjDd9YUiDPU4mzpyupFSvOClAwbmQ==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "browserslist",
+    "version": "4.22.1",
+    "published": "2023-09-28T19:37:25.241Z",
+    "deprecated": null,
+    "repository": "browserslist/browserslist",
+    "integrity": "sha512-FEVc202+2iuClEhZhrWy6ZiAcRLvNMyYcxZ8raemul1DYVOVdFsbqckWLdsixQZCpJlwe77Z3UTalE7jsjnKfQ==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "buffer-from",
+    "version": "1.1.2",
+    "published": "2021-07-29T17:05:33.074Z",
+    "deprecated": null,
+    "repository": "LinusU/buffer-from",
+    "integrity": "sha512-E+XQCRwSbaaiChtv6k6Dwgc+bx+Bs6vuKJHHl5kox/BaKbhiXzqQOwK4cO22yElGp2OCmjwVhT3HmxgyPGnJfQ==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "caniuse-lite",
+    "version": "1.0.30001561",
+    "published": "2023-11-04T06:47:29.325Z",
+    "deprecated": null,
+    "repository": "browserslist/caniuse-lite",
+    "integrity": "sha512-NTt0DNoKe958Q0BE0j0c1V9jbUzhBxHIEJy7asmGrpE0yG63KTV7PLHPnK2E1O9RsQrQ081I3NLuXGS6zht3cw==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "chalk",
+    "version": "2.4.2",
+    "published": "2019-01-05T15:45:52.349Z",
+    "deprecated": null,
+    "repository": "chalk/chalk",
+    "integrity": "sha512-Mti+f9lpJNcwF4tWV8/OrTTtF1gZi+f8FqlyAdouralcFWFQWF2+NgCHShjkCb+IFBLq9buZwE1xckQU4peSuQ==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "chrome-trace-event",
+    "version": "1.0.3",
+    "published": "2021-04-08T18:05:00.141Z",
+    "deprecated": null,
+    "repository": {
+      "url": "github:samccone/chrome-trace-event"
+    },
+    "integrity": "sha512-p3KULyQg4S7NIHixdwbGX+nFHkoBiA4YQmyWtjb8XngSKV124nJmRysgAeujbUVb15vh+RvFUfCPqU7rXk+hZg==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "clone-deep",
+    "version": "4.0.1",
+    "published": "2018-11-22T00:00:24.930Z",
+    "deprecated": null,
+    "repository": "jonschlinkert/clone-deep",
+    "integrity": "sha512-neHB9xuzh/wk0dIHweyAXv2aPGZIVk3pLMe+/RNzINf17fe0OG96QroktYAUm7SM1PBnzTabaLboqqxDyMU+SQ==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "color-convert",
+    "version": "1.9.3",
+    "published": "2018-08-28T05:32:39.014Z",
+    "deprecated": null,
+    "repository": "Qix-/color-convert",
+    "integrity": "sha512-QfAUtd+vFdAtFQcC8CCyYt1fYWxSqAiK2cSD6zDB8N3cpsEBAvRxp9zOGg6G/SHHJYAT88/az/IuDGALsNVbGg==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "color-name",
+    "version": "1.1.3",
+    "published": "2017-07-15T22:17:08.140Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:dfcreative/color-name.git"
+    },
+    "integrity": "sha512-72fSenhMw2HZMTVHeCA9KCmpEIbzWiQsjN+BHcBbS9vr1mtt+vJjPdksIBNUmKAW8TFUDPJK5SUU3QhE9NEXDw==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "colorette",
+    "version": "2.0.20",
+    "published": "2023-04-16T15:34:09.905Z",
+    "deprecated": null,
+    "repository": "jorgebucaran/colorette",
+    "integrity": "sha512-IfEDxwoWIjkeXL1eXcDiow4UbKjhLdq6/EuSVR9GMN7KVH3r9gQ83e73hsz1Nd1T3ijd5xv1wcWRYO+D6kCI2w==",
+    "lifecycleScripts": {
+      "prepare": "npm run build"
+    },
+    "dev": true
+  },
+  {
+    "name": "commander",
+    "version": "2.20.3",
+    "published": "2019-10-11T05:40:24.166Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/tj/commander.js.git"
+    },
+    "integrity": "sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "commander",
+    "version": "7.2.0",
+    "published": "2021-03-21T21:56:16.053Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/tj/commander.js.git"
+    },
+    "integrity": "sha512-QrWXB+ZQSVPmIWIhtEO9H+gwHaMGYiF5ChvoJ+K9ZGHG/sVsa6yiesAD1GC/x46sET00Xlwo1u49RVVVzvcSkw==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "commander",
+    "version": "9.2.0",
+    "published": "2022-04-15T08:17:56.139Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/tj/commander.js.git"
+    },
+    "integrity": "sha512-e2i4wANQiSXgnrBlIatyHtP1odfUp0BbV5Y5nEGbxtIrStkEOAAzCUirvLBNXHLr7kwLvJl6V+4V3XV9x7Wd9w==",
+    "lifecycleScripts": {},
+    "dev": false
+  },
+  {
+    "name": "commander",
+    "version": "9.4.0",
+    "published": "2022-07-15T06:19:53.286Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/tj/commander.js.git"
+    },
+    "integrity": "sha512-sRPT+umqkz90UA8M1yqYfnHlZA7fF6nSphDtxeywPZ49ysjxDQybzk13CL+mXekDRG92skbcqCLVovuCusNmFw==",
+    "lifecycleScripts": {},
+    "dev": false
+  },
+  {
+    "name": "commondir",
+    "version": "1.0.1",
+    "published": "2015-03-14T00:15:01.725Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "http://github.com/substack/node-commondir.git"
+    },
+    "integrity": "sha512-W9pAhw0ja1Edb5GVdIF1mjZw/ASI0AlShXM83UUGe2DVr5TdAPEA1OA8m/g8zWp9x6On7gqufY+FatDbC3MDQg==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "convert-source-map",
+    "version": "2.0.0",
+    "published": "2022-10-17T22:06:48.628Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/thlorenz/convert-source-map.git"
+    },
+    "integrity": "sha512-Kvp459HrV2FEJ1CAsi1Ku+MY3kasH19TFykTz2xWmMeq6bk2NU3XXvfJ+Q61m0xktWwt+1HSYf3JZsTms3aRJg==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "core-js-compat",
+    "version": "3.33.2",
+    "published": "2023-10-30T17:22:32.100Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/zloirock/core-js.git",
+      "directory": "packages/core-js-compat"
+    },
+    "integrity": "sha512-axfo+wxFVxnqf8RvxTzoAlzW4gRoacrHeoFlc9n0x50+7BEyZL/Rt3hicaED1/CEd7I6tPCPVUYcJwCMO5XUYw==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "cross-spawn",
+    "version": "7.0.3",
+    "published": "2020-05-25T15:35:07.209Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:moxystudio/node-cross-spawn.git"
+    },
+    "integrity": "sha512-iRDPJKUPVEND7dHPO8rkbOnPpyDygcDFtWjpeWNCgy8WP2rXcxXL8TskReQl6OrB2G7+UJrags1q15Fudc7G6w==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "debug",
+    "version": "4.3.4",
+    "published": "2022-03-17T13:38:47.641Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/debug-js/debug.git"
+    },
+    "integrity": "sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "electron-to-chromium",
+    "version": "1.4.578",
+    "published": "2023-11-07T19:02:22.534Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/kilian/electron-to-chromium/"
+    },
+    "integrity": "sha512-V0ZhSu1BQZKfG0yNEL6Dadzik8E1vAzfpVOapdSiT9F6yapEJ3Bk+4tZ4SMPdWiUchCgnM/ByYtBzp5ntzDMIA==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "emojis-list",
+    "version": "3.0.0",
+    "published": "2019-05-12T10:53:05.120Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/kikobeats/emojis-list.git"
+    },
+    "integrity": "sha512-/kyM18EfinwXZbno9FyUGeFh87KC8HRQBQGildHZbEuRyWFOmv1U10o9BBp8XVZDVNNuQKyIGIu5ZYAAXJ0V2Q==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "enhanced-resolve",
+    "version": "5.15.0",
+    "published": "2023-06-13T15:16:22.647Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/webpack/enhanced-resolve.git"
+    },
+    "integrity": "sha512-LXYT42KJ7lpIKECr2mAXIaMldcNCh/7E0KBKOu4KSfkHmP+mZmSs+8V5gBAqisWBy0OO4W5Oyys0GO1Y8KtdKg==",
+    "lifecycleScripts": {
+      "prepare": "husky install"
+    },
+    "dev": true
+  },
+  {
+    "name": "envinfo",
+    "version": "7.11.0",
+    "published": "2023-11-01T03:05:12.171Z",
+    "deprecated": null,
+    "repository": "https://github.com/tabrindle/envinfo",
+    "integrity": "sha512-G9/6xF1FPbIw0TtalAMaVPpiq2aDEuKLXM314jPVAO9r2fo2a4BLqMNkmRS7O/xPPZ+COAhGIz3ETvHEV3eUcg==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "es-module-lexer",
+    "version": "1.3.1",
+    "published": "2023-09-10T21:40:59.773Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/guybedford/es-module-lexer.git"
+    },
+    "integrity": "sha512-JUFAyicQV9mXc3YRxPnDlrfBKpqt6hUYzz9/boprUJHs4e4KVr3XwOF70doO6gwXUor6EWZJAyWAfKki84t20Q==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "escalade",
+    "version": "3.1.1",
+    "published": "2020-10-13T06:03:44.007Z",
+    "deprecated": null,
+    "repository": "lukeed/escalade",
+    "integrity": "sha512-k0er2gUkLf8O0zKJiAhmkTnJlTvINGv7ygDNPbeIsX/TJjGJZHuh9B2UxbsaEkmlEo9MfhrSzmhIlhRlI2GXnw==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "escape-string-regexp",
+    "version": "1.0.5",
+    "published": "2016-02-21T12:55:17.074Z",
+    "deprecated": null,
+    "repository": "sindresorhus/escape-string-regexp",
+    "integrity": "sha512-vbRorB5FUQWvla16U8R/qgaFIya2qGzwDrNmCZuYKrbdSUMG6I1ZCGQRefkRVhuOkIGVne7BQ35DSfo1qvJqFg==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "eslint-scope",
+    "version": "5.1.1",
+    "published": "2020-09-12T18:29:01.228Z",
+    "deprecated": null,
+    "repository": "eslint/eslint-scope",
+    "integrity": "sha512-2NxwbF/hZ0KpepYN0cNbo+FN6XoK7GaHlQhgx/hIZl6Va0bF45RQOOwhLIy8lQDbuCiadSLCBnH2CFYquit5bw==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "esm",
+    "version": "3.2.25",
+    "published": "2019-05-17T05:24:41.368Z",
+    "deprecated": null,
+    "repository": "standard-things/esm",
+    "integrity": "sha512-U1suiZ2oDVWv4zPO56S0NcR5QriEahGtdN2OR6FiOG4WJvcjBVFB0qI4+eKoWFH483PKGuLuu6V8Z4T5g63UVA==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "esrecurse",
+    "version": "4.3.0",
+    "published": "2020-08-31T18:21:44.794Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/estools/esrecurse.git"
+    },
+    "integrity": "sha512-KmfKL3b6G+RXvP8N1vr3Tq1kL/oCFgn2NYXEtqP8/L3pKapUA4G8cFVaoF3SU323CD4XypR/ffioHmkti6/Tag==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "estraverse",
+    "version": "4.3.0",
+    "published": "2019-08-13T22:08:56.155Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "http://github.com/estools/estraverse.git"
+    },
+    "integrity": "sha512-39nnKffWz8xN1BU/2c79n9nB9HDzo0niYUqx6xyqUnyoAnQyyWpOTdZEeiCch8BBu515t4wp9ZmgVfVhn9EBpw==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "estraverse",
+    "version": "5.3.0",
+    "published": "2021-10-25T12:18:17.722Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "http://github.com/estools/estraverse.git"
+    },
+    "integrity": "sha512-MMdARuVEQziNTeJD8DgMqmhwR11BRQ/cBP+pLtYdSTnf3MIO8fFeiINEbX36ZdNlfU/7A9f3gUw49B3oQsvwBA==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "esutils",
+    "version": "2.0.3",
+    "published": "2019-07-31T01:10:54.228Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "http://github.com/estools/esutils.git"
+    },
+    "integrity": "sha512-kVscqXk4OCp68SZ0dkgEKVi6/8ij300KBWTJq32P/dYeWTSwK41WyTxalN1eRmA5Z9UU/LX9D7FWSmV9SAYx6g==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "events",
+    "version": "3.3.0",
+    "published": "2021-02-27T16:51:27.318Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/Gozala/events.git",
+      "web": "https://github.com/Gozala/events"
+    },
+    "integrity": "sha512-mQw+2fkQbALzQ7V0MY0IqdnXNOeTtP4r0lN9z7AAawCXgqea7bDii20AYrIBrFd/Hx0M2Ocz6S111CaFkUcb0Q==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "fast-deep-equal",
+    "version": "3.1.3",
+    "published": "2020-06-08T07:27:28.474Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/epoberezkin/fast-deep-equal.git"
+    },
+    "integrity": "sha512-f3qQ9oQy9j2AhBe/H9VC91wLmKBCCU/gDOnKNAYG5hswO7BLKj09Hc5HYNz9cGI++xlpDCIgDaitVs03ATR84Q==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "fast-json-stable-stringify",
+    "version": "2.1.0",
+    "published": "2019-12-14T16:17:57.583Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/epoberezkin/fast-json-stable-stringify.git"
+    },
+    "integrity": "sha512-lhd/wF+Lk98HZoTCtlVraHtfh5XYijIjalXck7saUtuanSDyLMxnHhSXEDJqHxD7msR8D0uCmqlkwjCV8xvwHw==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "fastest-levenshtein",
+    "version": "1.0.16",
+    "published": "2022-08-02T19:15:44.474Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ka-weihe/fastest-levenshtein.git"
+    },
+    "integrity": "sha512-eRnCtTTtGZFpQCwhJiUOuxPQWRXVKYDn0b2PeHfXL6/Zi53SLAzAHfVhVWK2AryC/WH05kGfxhFIPvTF0SXQzg==",
+    "lifecycleScripts": {
+      "prepare": "npm run build && npm run build:esm"
+    },
+    "dev": true
+  },
+  {
+    "name": "find-cache-dir",
+    "version": "3.3.2",
+    "published": "2021-08-29T17:57:35.086Z",
+    "deprecated": null,
+    "repository": "avajs/find-cache-dir",
+    "integrity": "sha512-wXZV5emFEjrridIgED11OoUKLxiYjAcqot/NJdAkOhlJ+vGzwhOAfcG5OX1jP+S0PcjEn8bdMJv+g2jwQ3Onig==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "find-up",
+    "version": "4.1.0",
+    "published": "2019-06-17T06:20:34.221Z",
+    "deprecated": null,
+    "repository": "sindresorhus/find-up",
+    "integrity": "sha512-PpOwAdQ/YlXQ2vj8a3h8IipDuYRi3wceVQQGYWxNINccq40Anw7BlsEXCMbt1Zt+OLA6Fq9suIpIWD0OsnISlw==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "flat",
+    "version": "5.0.2",
+    "published": "2020-08-06T15:29:02.438Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/hughsk/flat.git"
+    },
+    "integrity": "sha512-b6suED+5/3rTpUBdG1gupIl8MPFCAMA0QXwmljLhvCUKcUvdE4gWky9zpuGCcXHOsz4J9wPGNWq6OKpmIzz3hQ==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "function-bind",
+    "version": "1.1.2",
+    "published": "2023-10-12T19:08:19.687Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/Raynos/function-bind.git"
+    },
+    "integrity": "sha512-7XHNxH7qX9xG5mIwxkhumTox/MIRNcOgDrxWsMt2pAr23WHp6MrRlN7FBSFpCpr+oVO0F744iUgR82nJMfG2SA==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "gensync",
+    "version": "1.0.0-beta.2",
+    "published": "2020-10-27T20:43:40.443Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/loganfsmyth/gensync.git"
+    },
+    "integrity": "sha512-3hN7NaskYvMDLQY55gnW3NQ+mesEAepTqlg+VEbj7zzqEMBVNhzcGYYeqFo/TlYz6eQiFcp1HcsCZO+nGgS8zg==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "glob-to-regexp",
+    "version": "0.4.1",
+    "published": "2019-04-01T16:19:53.460Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/fitzgen/glob-to-regexp.git"
+    },
+    "integrity": "sha512-lkX1HJXwyMcprw/5YUZc2s7DrpAiHB21/V+E1rHUrVNokkvB6bqMzT0VfV6/86ZNabt1k14YOIaT7nDvOX3Iiw==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "globals",
+    "version": "11.12.0",
+    "published": "2019-04-30T12:09:45.821Z",
+    "deprecated": null,
+    "repository": "sindresorhus/globals",
+    "integrity": "sha512-WOBp/EEGUiIsJSp7wcv/y6MO+lV9UoncWqxuFfm8eBwzWNgyfBd6Gz+IeKQ9jCmyhoH99g15M3T+QaVHFjizVA==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "graceful-fs",
+    "version": "4.2.11",
+    "published": "2023-03-16T19:30:19.323Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/isaacs/node-graceful-fs"
+    },
+    "integrity": "sha512-RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "has-flag",
+    "version": "3.0.0",
+    "published": "2018-01-02T19:21:56.098Z",
+    "deprecated": null,
+    "repository": "sindresorhus/has-flag",
+    "integrity": "sha512-sKJf1+ceQBr4SMkvQnBDNDtf4TXpVhVGateu0t918bl30FnbE2m4vNLX+VWe/dpjlb+HugGYzW7uQXH98HPEYw==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "has-flag",
+    "version": "4.0.0",
+    "published": "2019-04-06T15:49:21.907Z",
+    "deprecated": null,
+    "repository": "sindresorhus/has-flag",
+    "integrity": "sha512-EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "hasown",
+    "version": "2.0.0",
+    "published": "2023-10-21T04:54:15.456Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/inspect-js/hasOwn.git"
+    },
+    "integrity": "sha512-vUptKVTpIJhcczKBbgnS+RtcuYMB8+oNzPK2/Hp3hanz8JmpATdmmgLgSaadVREkDm+e2giHwY3ZRkyjSIDDFA==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "import-local",
+    "version": "3.1.0",
+    "published": "2022-01-06T08:17:20.570Z",
+    "deprecated": null,
+    "repository": "sindresorhus/import-local",
+    "integrity": "sha512-ASB07uLtnDs1o6EHjKpX34BKYDSqnFerfTOJL2HvMqF70LnxpjkzDB8J44oT9pu4AMPkQwf8jl6szgvNd2tRIg==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "interpret",
+    "version": "2.2.0",
+    "published": "2020-06-03T06:52:07.322Z",
+    "deprecated": null,
+    "repository": "gulpjs/interpret",
+    "integrity": "sha512-Ju0Bz/cEia55xDwUWEa8+olFpCiQoypjnQySseKtmjNrnps3P+xfpUmGr90T7yjlVJmOtybRvPXhKMbHr+fWnw==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "is-core-module",
+    "version": "2.13.1",
+    "published": "2023-10-21T04:57:49.460Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/inspect-js/is-core-module.git"
+    },
+    "integrity": "sha512-hHrIjvZsftOsvKSn2TRYl63zvxsgE0K+0mYMoH6gD4omR5IWB2KynivBQczo3+wF1cCkjzvptnI9Q0sPU66ilw==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "is-plain-object",
+    "version": "2.0.4",
+    "published": "2017-07-11T22:41:10.371Z",
+    "deprecated": null,
+    "repository": "jonschlinkert/is-plain-object",
+    "integrity": "sha512-h5PpgXkWitc38BBMYawTYMWJHFZJVnBquFE57xFpjB8pJFiF6gZ+bU+WyI/yqXiFR5mdLsgYNaPe8uao6Uv9Og==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "isexe",
+    "version": "2.0.0",
+    "published": "2017-03-23T00:53:16.356Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/isaacs/isexe.git"
+    },
+    "integrity": "sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "isobject",
+    "version": "3.0.1",
+    "published": "2017-06-30T18:19:30.705Z",
+    "deprecated": null,
+    "repository": "jonschlinkert/isobject",
+    "integrity": "sha512-WhB9zCku7EGTj/HQQRz5aUQEUeoQZH2bWcltRErOpymJ4boYE6wL9Tbr23krRPSZ+C5zqNSrSw+Cc7sZZ4b7vg==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "jest-worker",
+    "version": "27.5.1",
+    "published": "2022-02-08T10:52:12.753Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/facebook/jest.git",
+      "directory": "packages/jest-worker"
+    },
+    "integrity": "sha512-7vuh85V5cdDofPyxn58nrPjBktZo0u9x1g8WtjQol+jZDaE+fhN+cIvTj11GndBnMnyfrUOG1sZQxCdjKh+DKg==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "js-tokens",
+    "version": "4.0.0",
+    "published": "2018-01-28T11:58:58.170Z",
+    "deprecated": null,
+    "repository": "lydell/js-tokens",
+    "integrity": "sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "jsesc",
+    "version": "0.5.0",
+    "published": "2014-08-18T10:32:33.662Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/mathiasbynens/jsesc.git"
+    },
+    "integrity": "sha512-uZz5UnB7u4T9LvwmFqXii7pZSouaRPorGs5who1Ip7VO0wxanFvBL7GkM6dTHlgX+jhBApRetaWpnDabOeTcnA==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "jsesc",
+    "version": "2.5.2",
+    "published": "2018-11-08T21:50:41.326Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/mathiasbynens/jsesc.git"
+    },
+    "integrity": "sha512-OYu7XEzjkCQ3C5Ps3QIZsQfNpqoJyZZA99wd9aWd05NCtC5pWOkShK2mkL6HXQR6/Cy2lbNdPlZBpuQHXE63gA==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "json-parse-even-better-errors",
+    "version": "2.3.1",
+    "published": "2020-09-02T16:37:58.371Z",
+    "deprecated": null,
+    "repository": "https://github.com/npm/json-parse-even-better-errors",
+    "integrity": "sha512-xyFwyhro/JEof6Ghe2iz2NcXoj2sloNsWr/XsERDK/oiPCfaNhl5ONfp+jQdAZRQQ0IJWNzH9zIZF7li91kh2w==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "json-schema-traverse",
+    "version": "0.4.1",
+    "published": "2018-06-10T08:42:05.056Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/epoberezkin/json-schema-traverse.git"
+    },
+    "integrity": "sha512-xbbCH5dCYU5T8LcEhhuh7HJ88HXuW3qsI3Y0zOZFKfZEHcpWiHU/Jxzk629Brsab/mMiHQti9wMP+845RPe3Vg==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "json5",
+    "version": "2.2.3",
+    "published": "2022-12-31T17:11:32.047Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/json5/json5.git"
+    },
+    "integrity": "sha512-XmOWe7eyHYH14cLdVPoyg+GOH3rYX++KpzrylJwSW98t3Nk+U8XOl8FWKOgwtzdb8lXGf6zYwDUzeHMWfxasyg==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "kind-of",
+    "version": "6.0.3",
+    "published": "2020-01-16T16:59:19.808Z",
+    "deprecated": null,
+    "repository": "jonschlinkert/kind-of",
+    "integrity": "sha512-dcS1ul+9tmeD95T+x28/ehLgd9mENa3LsvDTtzm3vyBEO7RPptvAD+t44WVXaUjTBRcrpFeFlC8WCruUR456hw==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "loader-runner",
+    "version": "4.3.0",
+    "published": "2022-04-12T09:39:27.730Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/webpack/loader-runner.git"
+    },
+    "integrity": "sha512-3R/1M+yS3j5ou80Me59j7F9IMs4PXs3VqRrm0TU3AbKPxlmpoY1TNscJV/oGJXo8qCatFGTfDbY6W6ipGOYXfg==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "loader-utils",
+    "version": "2.0.4",
+    "published": "2022-11-11T00:32:06.181Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/webpack/loader-utils.git"
+    },
+    "integrity": "sha512-xXqpXoINfFhgua9xiqD8fPFHgkoq1mmmpE92WlDbm9rNRd/EbRb+Gqf908T2DMfuHjjJlksiK2RbHVOdD/MqSw==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "locate-path",
+    "version": "5.0.0",
+    "published": "2019-05-04T13:00:07.428Z",
+    "deprecated": null,
+    "repository": "sindresorhus/locate-path",
+    "integrity": "sha512-t7hw9pI+WvuwNJXwk5zVHpyhIqzg2qTlklJOf0mVxGSbe3Fp2VieZcduNYjaLDoy6p9uGpQEGWG87WpMKlNq8g==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "lodash.debounce",
+    "version": "4.0.8",
+    "published": "2016-08-13T17:37:49.793Z",
+    "deprecated": null,
+    "repository": "lodash/lodash",
+    "integrity": "sha512-FT1yDzDYEoYWhnSGnpE/4Kj1fLZkDFyqRb7fNt6FdYOSxlUWAtp42Eh6Wb0rGIv/m9Bgo7x4GhQbm5Ys4SG5ow==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "lru-cache",
+    "version": "5.1.1",
+    "published": "2018-11-21T01:44:45.407Z",
+    "deprecated": null,
+    "repository": "git://github.com/isaacs/node-lru-cache.git",
+    "integrity": "sha512-KpNARQA3Iwv+jTA0utUVVbrh+Jlrr1Fv0e56GGzAFOXN7dk/FviaDW8LHmK52DlcH4WP2n6gI8vN1aesBFgo9w==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "make-dir",
+    "version": "3.1.0",
+    "published": "2020-04-22T14:59:14.524Z",
+    "deprecated": null,
+    "repository": "sindresorhus/make-dir",
+    "integrity": "sha512-g3FeP20LNwhALb/6Cz6Dd4F2ngze0jz7tbzrD2wAV+o9FeNHe4rL+yK2md0J/fiSf1sa1ADhXqi5+oVwOM/eGw==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "mathjax-full",
+    "version": "3.2.2",
+    "published": "2022-06-08T17:29:04.841Z",
+    "deprecated": "Version 4 replaces this package with the scoped package @mathjax/src",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/mathjax/Mathjax-src/"
+    },
+    "integrity": "sha512-+LfG9Fik+OuI8SLwsiR02IVdjcnRCy5MufYLi0C3TdMT56L/pjB0alMVGgoWJF8pN9Rc7FESycZB9BMNWIid5w==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "merge-stream",
+    "version": "2.0.0",
+    "published": "2019-05-23T13:36:45.932Z",
+    "deprecated": null,
+    "repository": "grncdr/merge-stream",
+    "integrity": "sha512-abv/qOcuPfk3URPfDzmZU1LKmuw8kT+0nIHvKrKgFrwifol/doWcdA4ZqsWQ8ENrFKkd67Mfpo/LovbIUsbt3w==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "mhchemparser",
+    "version": "4.2.1",
+    "published": "2023-05-24T08:17:06.027Z",
+    "deprecated": null,
+    "repository": "github:mhchem/mhchemParser",
+    "integrity": "sha512-kYmyrCirqJf3zZ9t/0wGgRZ4/ZJw//VwaRVGA75C4nhE60vtnIzhl9J9ndkX/h6hxSN7pjg/cE0VxbnNM+bnDQ==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "mime-db",
+    "version": "1.52.0",
+    "published": "2022-02-21T19:41:51.123Z",
+    "deprecated": null,
+    "repository": "jshttp/mime-db",
+    "integrity": "sha512-sPU4uV7dYlvtWJxwwxHD0PuihVNiE7TyAbQ5SWxDCB9mUYvOgroQOwYQQOKPJ8CIbE+1ETVlOoK1UC2nU3gYvg==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "mime-types",
+    "version": "2.1.35",
+    "published": "2022-03-12T18:04:43.042Z",
+    "deprecated": null,
+    "repository": "jshttp/mime-types",
+    "integrity": "sha512-ZDY+bPm5zTTF+YpCrAU9nK0UgICYPT0QtT1NZWFv4s++TNkcgVaT0g6+4R2uI4MjQjzysHB1zxuWL50hzaeXiw==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "mj-context-menu",
+    "version": "0.6.1",
+    "published": "2020-08-20T10:50:52.317Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/zorkow/context-menu"
+    },
+    "integrity": "sha512-7NO5s6n10TIV96d4g2uDpG7ZDpIhMh0QNfGdJw/W47JswFcosz457wqz/b5sAKvl12sxINGFCn80NZHKwxQEXA==",
+    "lifecycleScripts": {
+      "prepare": "npx rimraf js; npx rimraf dist; ./node_modules/.bin/tsc; ./node_modules/.bin/webpack"
+    },
+    "dev": true
+  },
+  {
+    "name": "ms",
+    "version": "2.1.2",
+    "published": "2019-06-06T17:31:55.859Z",
+    "deprecated": null,
+    "repository": "zeit/ms",
+    "integrity": "sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "neo-async",
+    "version": "2.6.2",
+    "published": "2020-07-09T18:23:53.065Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:suguru03/neo-async.git"
+    },
+    "integrity": "sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "node-releases",
+    "version": "2.0.13",
+    "published": "2023-07-07T00:41:38.383Z",
+    "deprecated": null,
+    "repository": "chicoxyzzy/node-releases",
+    "integrity": "sha512-uYr7J37ae/ORWdZeQ1xxMJe3NtdmqMC/JZK+geofDrkLUApKRHPd18/TxtBOJ4A0/+uUIliorNrfYV6s1b02eQ==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "p-limit",
+    "version": "2.3.0",
+    "published": "2020-04-05T15:40:45.137Z",
+    "deprecated": null,
+    "repository": "sindresorhus/p-limit",
+    "integrity": "sha512-//88mFWSJx8lxCzwdAABTJL2MyWB12+eIY7MDL2SqLmAkeKU9qxRvWuSyTjm3FUmpBEMuFfckAIqEaVGUDxb6w==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "p-locate",
+    "version": "4.1.0",
+    "published": "2019-04-04T05:02:46.111Z",
+    "deprecated": null,
+    "repository": "sindresorhus/p-locate",
+    "integrity": "sha512-R79ZZ/0wAxKGu3oYMlz8jy/kbhsNrS7SKZ7PxEHBgJ5+F2mtFW2fK2cOtBh1cHYkQsbzFV7I+EoRKe6Yt0oK7A==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "p-try",
+    "version": "2.2.0",
+    "published": "2019-03-31T12:34:35.198Z",
+    "deprecated": null,
+    "repository": "sindresorhus/p-try",
+    "integrity": "sha512-R4nPAVTAU0B9D35/Gk3uJf/7XYbQcyohSKdvAxIRSNghFl4e71hVoGnBNQz9cWaXxO2I10KTC+3jMdvvoKw6dQ==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "path-exists",
+    "version": "4.0.0",
+    "published": "2019-04-04T03:29:16.887Z",
+    "deprecated": null,
+    "repository": "sindresorhus/path-exists",
+    "integrity": "sha512-ak9Qy5Q7jYb2Wwcey5Fpvg2KoAc/ZIhLSLOSBmRmygPsGwkVVt0fZa0qrtMz+m6tJTAHfZQ8FnmB4MG4LWy7/w==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "path-key",
+    "version": "3.1.1",
+    "published": "2019-11-22T16:47:18.153Z",
+    "deprecated": null,
+    "repository": "sindresorhus/path-key",
+    "integrity": "sha512-ojmeN0qd+y0jszEtoY48r0Peq5dwMEkIlCOu6Q5f41lfkswXuKtYrhgoTpLnyIcHm24Uhqx+5Tqm2InSwLhE6Q==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "path-parse",
+    "version": "1.0.7",
+    "published": "2021-05-25T12:57:37.333Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/jbgutierrez/path-parse.git"
+    },
+    "integrity": "sha512-LDJzPVEEEPR+y48z93A0Ed0yXb8pAByGWo/k5YYdYgpY2/2EsOsksJrq7lOHxryrVOn1ejG6oAp8ahvOIQD8sw==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "picocolors",
+    "version": "1.0.0",
+    "published": "2021-10-13T02:48:42.115Z",
+    "deprecated": null,
+    "repository": "alexeyraspopov/picocolors",
+    "integrity": "sha512-1fygroTLlHu66zi26VoTDv8yRgm0Fccecssto+MhsZ0D/DGW2sm8E8AjW7NU5VVTRt5GxbeZ5qBuJr+HyLYkjQ==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "pkg-dir",
+    "version": "4.2.0",
+    "published": "2019-05-21T09:35:48.505Z",
+    "deprecated": null,
+    "repository": "sindresorhus/pkg-dir",
+    "integrity": "sha512-HRDzbaKjC+AOWVXxAU/x54COGeIv9eb+6CkDSQoNTt4XyWoIJvuPsXizxu/Fr23EiekbtZwmh1IcIG/l/a10GQ==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "punycode",
+    "version": "2.3.1",
+    "published": "2023-10-30T18:28:32.512Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/mathiasbynens/punycode.js.git"
+    },
+    "integrity": "sha512-vYt7UD1U9Wg6138shLtLOvdAu+8DsC/ilFtEVHcH+wydcSpNE20AfSOduf6MkRFahL5FY7X1oU7nKVZFtfq8Fg==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "randombytes",
+    "version": "2.1.0",
+    "published": "2019-02-19T13:48:39.116Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:crypto-browserify/randombytes.git"
+    },
+    "integrity": "sha512-vYl3iOX+4CKUWuxGi9Ukhie6fsqXqS9FE2Zaic4tNFD2N2QQaXOMFbuKK4QmDHC0JO6B1Zp41J0LpT0oR68amQ==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "rechoir",
+    "version": "0.7.1",
+    "published": "2021-07-20T06:11:57.357Z",
+    "deprecated": null,
+    "repository": "gulpjs/rechoir",
+    "integrity": "sha512-/njmZ8s1wVeR6pjTZ+0nCnv8SpZNRMT2D1RLOJQESlYFDBvwpTA4KWJpZ+sBJ4+vhjILRcK7JIFdGCdxEAAitg==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "regenerate",
+    "version": "1.4.2",
+    "published": "2020-11-01T08:42:12.525Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/mathiasbynens/regenerate.git"
+    },
+    "integrity": "sha512-zrceR/XhGYU/d/opr2EKO7aRHUeiBI8qjtfHqADTwZd6Szfy16la6kqD0MIUs5z5hx6AaKa+PixpPrR289+I0A==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "regenerate-unicode-properties",
+    "version": "10.1.1",
+    "published": "2023-09-15T06:19:12.484Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/mathiasbynens/regenerate-unicode-properties.git"
+    },
+    "integrity": "sha512-X007RyZLsCJVVrjgEFVpLUTZwyOZk3oiL75ZcuYjlIWd6rNJtOjkBwQc5AsRrpbKVkxN6sklw/k/9m2jJYOf8Q==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "regenerator-runtime",
+    "version": "0.14.0",
+    "published": "2023-08-04T17:35:20.982Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/facebook/regenerator/tree/main/packages/runtime"
+    },
+    "integrity": "sha512-srw17NI0TUWHuGa5CFGGmhfNIeja30WMBfbslPNhf6JrqQlLN5gcrvig1oqPxiVaXb0oW0XRKtH6Nngs5lKCIA==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "regenerator-transform",
+    "version": "0.15.2",
+    "published": "2023-08-04T17:25:47.317Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/facebook/regenerator/tree/main/packages/transform"
+    },
+    "integrity": "sha512-hfMp2BoF0qOk3uc5V20ALGDS2ddjQaLrdl7xrGXvAIow7qeWRM2VA2HuCHkUKk9slq3VwEwLNK3DFBqDfPGYtg==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "regexpu-core",
+    "version": "5.3.2",
+    "published": "2023-03-10T16:29:20.145Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/mathiasbynens/regexpu-core.git"
+    },
+    "integrity": "sha512-RAM5FlZz+Lhmo7db9L298p2vHP5ZywrVXmVXpmAD9GuL5MPH6t9ROw1iA/wfHkQ76Qe7AaPF0nGuim96/IrQMQ==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "regjsparser",
+    "version": "0.9.1",
+    "published": "2022-07-09T21:01:05.310Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:jviereck/regjsparser.git"
+    },
+    "integrity": "sha512-dQUtn90WanSNl+7mQKcXAgZxvUe7Z0SqXlgzv0za4LwiUhyzBC58yQO3liFoUgu8GiJVInAhJjkj1N0EtQ5nkQ==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "resolve",
+    "version": "1.22.8",
+    "published": "2023-10-10T21:37:14.696Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/browserify/resolve.git"
+    },
+    "integrity": "sha512-oKWePCxqpd6FlLvGV1VU0x7bkPmmCNolxzjMf4NczoDnQcIWrAF+cPtZn5i6n+RfD2d9i0tzpKnG6Yk168yIyw==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "resolve-cwd",
+    "version": "3.0.0",
+    "published": "2019-04-30T12:53:23.953Z",
+    "deprecated": null,
+    "repository": "sindresorhus/resolve-cwd",
+    "integrity": "sha512-OrZaX2Mb+rJCpH/6CpSqt9xFVpN++x01XnN2ie9g6P5/3xelLAkXWVADpdz1IHD/KFfEXyE6V0U01OQ3UO2rEg==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "resolve-from",
+    "version": "5.0.0",
+    "published": "2019-04-15T04:06:25.601Z",
+    "deprecated": null,
+    "repository": "sindresorhus/resolve-from",
+    "integrity": "sha512-qYg9KP24dD5qka9J47d0aVky0N+b4fTU89LN9iDnjB5waksiC49rvMB0PrUJQGoTmH50XPiqOvAjDfaijGxYZw==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "safe-buffer",
+    "version": "5.2.1",
+    "published": "2020-05-10T16:37:30.776Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/feross/safe-buffer.git"
+    },
+    "integrity": "sha512-rp3So07KcdmmKbGvgaNxQSJr7bGVSVk5S9Eq1F+ppbRo70+YeaDxkw5Dd8NPN+GD6bjnYm2VuPuCXmpuYvmCXQ==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "schema-utils",
+    "version": "2.7.1",
+    "published": "2020-08-31T11:00:30.300Z",
+    "deprecated": null,
+    "repository": "webpack/schema-utils",
+    "integrity": "sha512-SHiNtMOUGWBQJwzISiVYKu82GiV4QYGePp3odlY1tuKO7gPtphAT5R/py0fA6xtbgLL/RvtJZnU9b8s0F1q0Xg==",
+    "lifecycleScripts": {
+      "prepare": "npm run build"
+    },
+    "dev": true
+  },
+  {
+    "name": "schema-utils",
+    "version": "3.3.0",
+    "published": "2023-06-14T14:52:43.727Z",
+    "deprecated": null,
+    "repository": "webpack/schema-utils",
+    "integrity": "sha512-pN/yOAvcC+5rQ5nERGuwrjLlYvLTbCibnZ1I7B1LaiAz9BRBlE9GMgE/eqV30P7aJQUf7Ddimy/RsbYO/GrVGg==",
+    "lifecycleScripts": {
+      "prepare": "npm run build && husky install"
+    },
+    "dev": true
+  },
+  {
+    "name": "semver",
+    "version": "6.3.1",
+    "published": "2023-07-10T22:38:41.428Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/npm/node-semver.git"
+    },
+    "integrity": "sha512-BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "serialize-javascript",
+    "version": "6.0.1",
+    "published": "2023-01-15T14:34:51.198Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/yahoo/serialize-javascript.git"
+    },
+    "integrity": "sha512-owoXEFjWRllis8/M1Q+Cw5k8ZH40e3zhp/ovX+Xr/vi1qj6QesbyXXViFbpNvWvPNAD62SutwEXavefrLJWj7w==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "shallow-clone",
+    "version": "3.0.1",
+    "published": "2019-04-16T00:06:42.461Z",
+    "deprecated": null,
+    "repository": "jonschlinkert/shallow-clone",
+    "integrity": "sha512-/6KqX+GVUdqPuPPd2LxDDxzX6CAbjJehAAOKlNpqqUpAqPM6HeL8f+o3a+JsyGjn2lv0WY8UsTgUJjU9Ok55NA==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "shebang-command",
+    "version": "2.0.0",
+    "published": "2019-09-06T14:53:25.901Z",
+    "deprecated": null,
+    "repository": "kevva/shebang-command",
+    "integrity": "sha512-kHxr2zZpYtdmrN1qDjrrX/Z1rR1kG8Dx+gkpK1G4eXmvXswmcE1hTWBWYUzlraYw1/yZp6YuDY77YtvbN0dmDA==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "shebang-regex",
+    "version": "3.0.0",
+    "published": "2019-04-27T10:46:19.256Z",
+    "deprecated": null,
+    "repository": "sindresorhus/shebang-regex",
+    "integrity": "sha512-7++dFhtcx3353uBaq8DDR4NuxBetBzC7ZQOhmTQInHEd6bSrXdiEyzCvG07Z44UYdLShWUyXt5M/yhz8ekcb1A==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "source-map",
+    "version": "0.6.1",
+    "published": "2017-09-29T14:42:30.948Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "http://github.com/mozilla/source-map.git"
+    },
+    "integrity": "sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "source-map-support",
+    "version": "0.5.21",
+    "published": "2021-11-19T11:02:57.258Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/evanw/node-source-map-support"
+    },
+    "integrity": "sha512-uBHU3L3czsIyYXKX88fdrGovxdSCoTGDRZ6SYXtSRxLZUzHg5P/66Ht6uoUlHu9EZod+inXhKo3qQgwXUT/y1w==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "speech-rule-engine",
+    "version": "4.0.7",
+    "published": "2022-06-27T20:43:22.688Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/zorkow/speech-rule-engine"
+    },
+    "integrity": "sha512-sJrL3/wHzNwJRLBdf6CjJWIlxC04iYKkyXvYSVsWVOiC2DSkHmxsqOhEeMsBA9XK+CHuNcsdkbFDnoUfAsmp9g==",
+    "lifecycleScripts": {},
+    "dev": false
+  },
+  {
+    "name": "supports-color",
+    "version": "5.5.0",
+    "published": "2018-08-20T04:37:37.309Z",
+    "deprecated": null,
+    "repository": "chalk/supports-color",
+    "integrity": "sha512-QjVjwdXIt408MIiAqCX4oUKsgU2EqAGzs2Ppkm4aQYbjm+ZEWEcW4SfFNTr4uMNZma0ey4f5lgLrkB0aX0QMow==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "supports-color",
+    "version": "8.1.1",
+    "published": "2021-01-23T09:21:36.393Z",
+    "deprecated": null,
+    "repository": "chalk/supports-color",
+    "integrity": "sha512-MpUEN2OodtUzxvKQl72cUF7RQ5EiHsGvSsVG0ia9c5RbWGL2CI4C7EpPS8UTBIplnlzZiNuV56w+FuNxy3ty2Q==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "supports-preserve-symlinks-flag",
+    "version": "1.0.0",
+    "published": "2022-01-03T07:22:56.640Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/inspect-js/node-supports-preserve-symlinks-flag.git"
+    },
+    "integrity": "sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "tapable",
+    "version": "2.2.1",
+    "published": "2021-09-13T09:55:53.936Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "http://github.com/webpack/tapable.git"
+    },
+    "integrity": "sha512-GNzQvQTOIP6RyTfE2Qxb8ZVlNmw0n88vp1szwWRimP02mnTsx3Wtn5qRdqY9w2XduFNUgvOwhNnQsjwCp+kqaQ==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "terser",
+    "version": "5.24.0",
+    "published": "2023-10-31T13:38:14.921Z",
+    "deprecated": null,
+    "repository": "https://github.com/terser/terser",
+    "integrity": "sha512-ZpGR4Hy3+wBEzVEnHvstMvqpD/nABNelQn/z2r0fjVWGQsN3bpOLzQlqDxmb4CDZnXq5lpjnQ+mHQLAOpfM5iw==",
+    "lifecycleScripts": {
+      "prepare": "npm run build"
+    },
+    "dev": true
+  },
+  {
+    "name": "terser-webpack-plugin",
+    "version": "5.3.9",
+    "published": "2023-05-17T23:20:28.819Z",
+    "deprecated": null,
+    "repository": "webpack-contrib/terser-webpack-plugin",
+    "integrity": "sha512-ZuXsqE07EcggTWQjXUj+Aot/OMcD0bMKGgF63f7UxYcu5/AJF53aIpK1YoP5xR9l6s/Hy2b+t1AM0bLNPRuhwA==",
+    "lifecycleScripts": {
+      "prepare": "husky install && npm run build"
+    },
+    "dev": true
+  },
+  {
+    "name": "to-fast-properties",
+    "version": "2.0.0",
+    "published": "2017-06-09T14:01:59.999Z",
+    "deprecated": null,
+    "repository": "sindresorhus/to-fast-properties",
+    "integrity": "sha512-/OaKK0xYrs3DmxRYqL/yDc+FxFUVYhDlXMhRmv3z915w2HF1tnN1omB354j8VUGO/hbRzyD6Y3sA7v7GS/ceog==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "undici-types",
+    "version": "5.26.5",
+    "published": "2023-10-23T07:27:24.774Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/nodejs/undici.git"
+    },
+    "integrity": "sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "unicode-canonical-property-names-ecmascript",
+    "version": "2.0.0",
+    "published": "2021-09-14T10:29:27.145Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/mathiasbynens/unicode-canonical-property-names-ecmascript.git"
+    },
+    "integrity": "sha512-yY5PpDlfVIU5+y/BSCxAJRBIS1Zc2dDG3Ujq+sR0U+JjUevW2JhocOF+soROYDSaAezOzOKuyyixhD6mBknSmQ==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "unicode-match-property-ecmascript",
+    "version": "2.0.0",
+    "published": "2021-09-14T11:23:05.092Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/mathiasbynens/unicode-match-property-ecmascript.git"
+    },
+    "integrity": "sha512-5kaZCrbp5mmbz5ulBkDkbY0SsPOjKqVS35VpL9ulMPfSl0J0Xsm+9Evphv9CoIZFwre7aJoa94AY6seMKGVN5Q==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "unicode-match-property-value-ecmascript",
+    "version": "2.1.0",
+    "published": "2022-11-14T20:40:31.570Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/mathiasbynens/unicode-match-property-value-ecmascript.git"
+    },
+    "integrity": "sha512-qxkjQt6qjg/mYscYMC0XKRn3Rh0wFPlfxB0xkt9CfyTvpX1Ra0+rAmdX2QyAobptSEvuy4RtpPRui6XkV+8wjA==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "unicode-property-aliases-ecmascript",
+    "version": "2.1.0",
+    "published": "2022-09-14T12:04:08.346Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/mathiasbynens/unicode-property-aliases-ecmascript.git"
+    },
+    "integrity": "sha512-6t3foTQI9qne+OZoVQB/8x8rk2k1eVy1gRXhV3oFQ5T6R1dqQ1xtin3XqSlx3+ATBkliTaR/hHyJBm+LVPNM8w==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "update-browserslist-db",
+    "version": "1.0.13",
+    "published": "2023-09-21T14:10:32.629Z",
+    "deprecated": null,
+    "repository": "browserslist/update-db",
+    "integrity": "sha512-xebP81SNcPuNpPP3uzeW1NYXxI3rxyJzF3pD6sH4jE7o/IX+WtSpwnVU+qIsDPyk0d3hmFQ7mjqc6AtV604hbg==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "uri-js",
+    "version": "4.4.1",
+    "published": "2021-01-10T00:43:12.666Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "http://github.com/garycourt/uri-js"
+    },
+    "integrity": "sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "watchpack",
+    "version": "2.4.0",
+    "published": "2022-06-02T11:30:36.376Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/webpack/watchpack.git"
+    },
+    "integrity": "sha512-Lcvm7MGST/4fup+ifyKi2hjyIAwcdI4HRgtvTpIUxBRhB+RFtUh8XtDOxUfctVCnhVi+QQj49i91OyvzkJl6cg==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "webpack",
+    "version": "5.89.0",
+    "published": "2023-10-13T22:30:16.118Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/webpack/webpack.git"
+    },
+    "integrity": "sha512-qyfIC10pOr70V+jkmud8tMfajraGCZMBWJtrmuBymQKCrLTRejBI8STDp1MCyZu/QTdZSeacCQYpYNQVOzX5kw==",
+    "lifecycleScripts": {
+      "prepare": "husky install"
+    },
+    "dev": true
+  },
+  {
+    "name": "webpack-cli",
+    "version": "4.10.0",
+    "published": "2022-06-13T00:40:03.051Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/webpack/webpack-cli.git"
+    },
+    "integrity": "sha512-NLhDfH/h4O6UOy+0LSso42xvYypClINuMNBVVzX4vX98TmTaTUxwRbXdhucbFMd2qLaCTcLq/PdYrvi8onw90w==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "webpack-merge",
+    "version": "5.10.0",
+    "published": "2023-10-16T07:33:30.089Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/survivejs/webpack-merge.git"
+    },
+    "integrity": "sha512-+4zXKdx7UnO+1jaN4l2lHVD+mFvnlZQP/6ljaJVb4SZiwIKeUnrT5l0gkT8z+n4hKpC+jpOv6O9R+gLtag7pSA==",
+    "lifecycleScripts": {
+      "prepare": "npm run build"
+    },
+    "dev": true
+  },
+  {
+    "name": "webpack-sources",
+    "version": "3.2.3",
+    "published": "2022-01-11T16:46:47.603Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/webpack/webpack-sources.git"
+    },
+    "integrity": "sha512-/DyMEOrDgLKKIG0fmvtz+4dUX/3Ghozwgm6iPp8KRhvn+eQf9+Q7GWxVNMk3+uCPWfdXYC4ExGBckIXdFEfH1w==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "which",
+    "version": "2.0.2",
+    "published": "2019-11-18T22:26:15.325Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/isaacs/node-which.git"
+    },
+    "integrity": "sha512-BLI3Tl1TW3Pvl70l3yq3Y64i+awpwXqsGBYWkkqMtnbXgrMD+yj7rhW0kuEDxzJaYXGjEW5ogapKNMEKNMjibA==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "wicked-good-xpath",
+    "version": "1.3.0",
+    "published": "2016-04-01T09:11:19.912Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/google/wicked-good-xpath.git"
+    },
+    "integrity": "sha512-Gd9+TUn5nXdwj/hFsPVx5cuHHiF5Bwuc30jZ4+ronF1qHK5O7HD0sgmXWSEgwKquT3ClLoKPVbO6qGwVwLzvAw==",
+    "lifecycleScripts": {},
+    "dev": false
+  },
+  {
+    "name": "wildcard",
+    "version": "2.0.1",
+    "published": "2023-04-24T14:00:51.975Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/DamonOehlman/wildcard.git"
+    },
+    "integrity": "sha512-CC1bOL87PIWSBhDcTrdeLo6eGT7mCFtrg0uIJtqJUFyK+eJnzl8A1niH56uu7KMa5XFrtiV+AQuHO3n7DsHnLQ==",
+    "lifecycleScripts": {},
+    "dev": true
+  },
+  {
+    "name": "xmldom-sre",
+    "version": "0.1.31",
+    "published": "2018-02-07T18:23:20.955Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/zorkow/xmldom.git"
+    },
+    "integrity": "sha512-f9s+fUkX04BxQf+7mMWAp5zk61pciie+fFLC9hX9UVvCeJQfNHRHXpeo5MPcR0EUf57PYLdt+ZO4f3Ipk2oZUw==",
+    "lifecycleScripts": {},
+    "dev": false
+  },
+  {
+    "name": "yallist",
+    "version": "3.1.1",
+    "published": "2019-09-30T20:07:18.343Z",
+    "deprecated": null,
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/isaacs/yallist.git"
+    },
+    "integrity": "sha512-a4UGQaWPH59mOXUYnAG2ewncQS4i4F43Tv3JoAM+s2VDAmS9NsK8GpDMLrCHPksFT7h3K6TOoUNn2pb7RoXx4g==",
+    "lifecycleScripts": {},
+    "dev": true
+  }
+]
