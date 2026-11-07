@@ -11,13 +11,17 @@ Updated on 2026-11-07 (Asia/Seoul). Supersedes the historical 2023 cutoff review
 | `browserslist` | 4.28.7 |
 | `cross-spawn` | 7.0.5 |
 | `serialize-javascript` | 7.1.3 |
-| `@babel/helpers` | 7.26.10 |
+| `@babel/helpers` | 7.29.2 |
 | `@babel/runtime` | 7.26.10 |
 | `ajv` | 6.14.0 |
 | `terser-webpack-plugin` | 5.6.1 |
 | `webpack` | 5.104.1 |
 
 All ten are explicit development dependencies so each requested package is represented in the lockfile, even when newer parent packages no longer require it. Overrides prevent nested copies from resolving to different versions, except for the separate Ajv major-version branch described below. The wrappers runtime dependencies and unrelated direct build dependency pins remain unchanged.
+
+## Babel core update
+
+`@babel/core` is now pinned to **7.29.6**. It requires `@babel/helpers@^7.29.2`; the previous forced 7.26.10 pin caused `helpers(...).isInternal is not a function` during the build. Helpers is therefore pinned to exact **7.29.2**. All other direct package pins remain unchanged. Clean installation, full dependency-tree validation, the inspected build log, and power/fraction/root/nested/chemistry conversion checks passed with Node.js 24.22.1.
 
 ## Compatibility adjustment
 
@@ -27,15 +31,15 @@ The old `.npmrc` `before=2023-11-07` setting has been removed because it conflic
 
 ## Current audit results
 
-- Full dependency audit: **1 low, 0 moderate, 0 high, 0 critical**.
-- Remaining finding: `@babel/core@7.23.2`, [arbitrary file read via sourceMappingURL](https://github.com/advisories/GHSA-4x5r-pxfx-6jf8). This package was not included in the requested update list and has not been changed.
+- Full dependency audit: **0 low, 0 moderate, 0 high, 0 critical**.
+- The previous Babel core source-map finding is no longer reported after the 7.29.6 update.
 - Runtime-only audit: **0 reported findings**. This does not independently audit bundled code or prove safety of old parser forks.
-- Current reports: `security/npm-audit-exact-pins-2026-11-07.json` and `security/npm-audit-runtime-exact-pins-2026-11-07.json`.
-- Current installed-package inventory: `security/package-inventory-exact-pins-2026-11-07.json`.
+- Current full audit: `security/npm-audit-core-7.29.6-2026-11-07.json`. Earlier exact-pins audit reports describe the tree before this Babel core update.
+- Pre-core-update installed-package inventory: `security/package-inventory-exact-pins-2026-11-07.json`.
 
 ## Verification
 
-- Clean temporary installation from the final lockfile: `npm ci --ignore-scripts`, 272 dependency locations.
+- Clean temporary installation from the final lockfile: `npm ci --ignore-scripts`, 267 dependency locations.
 - Asserted every requested package version in the lockfile, including nested copies; the only additional Ajv version is the documented 8.18.0 branch.
 - `npm ls --all --json` passed with no invalid dependency-tree errors.
 - Explicit `npm run build` completed; the build log was inspected for errors, and the generated converter was exercised. The upstream makeAll driver can return success after an internal failure, so exit status alone was not accepted.
@@ -58,4 +62,4 @@ npm run build
 node bin/latex-to-speech --domain clearspeak 'x^2' '\frac{a}{b}'
 ```
 
-The full audit exits nonzero because the low-severity Babel core finding remains.
+The current full audit exits successfully with zero reported findings. This is not proof that the complete dependency tree is free of vulnerabilities or malicious code.

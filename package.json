@@ -29,7 +29,7 @@
   },
   "homepage": "https://github.com/speech-rule-engine/sre-latex#readme",
   "devDependencies": {
-    "@babel/core": "7.23.2",
+    "@babel/core": "7.29.6",
     "@babel/preset-env": "7.29.5",
     "babel-loader": "8.3.0",
     "mathjax-full": "3.2.2",
@@ -41,7 +41,7 @@
     "browserslist": "4.28.7",
     "cross-spawn": "7.0.5",
     "serialize-javascript": "7.1.3",
-    "@babel/helpers": "7.26.10",
+    "@babel/helpers": "7.29.2",
     "@babel/runtime": "7.26.10",
     "ajv": "6.14.0"
   },
