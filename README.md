@@ -5,15 +5,20 @@ Generates speech output for LaTeX expressions. This is based on
 Engine](https://speechruleengine.org).
 
 
-## Pinned historical checkout
+## Pinned checkout
 
-This checkout pins compatible direct dependency releases from 2022-2023 and
-locks all transitive dependencies to releases available by 2023-11-07 UTC.
-The lockfile includes older leaf packages where required by those dependencies.
-See [DEPENDENCY_REVIEW.md](DEPENDENCY_REVIEW.md) for known vulnerabilities and
-review limits. These historical pins are for compatibility, not a security guarantee.
+This checkout locks the ten explicitly requested security-update versions in
+`package.json` and `package-lock.json`. Direct dependencies use exact versions;
+root overrides enforce the requested versions throughout the dependency tree.
+Ajv 6 consumers use 6.14.0, while consumers requiring Ajv 8 use a separate exact
+8.18.0 pin. Both branches are necessary for the build.
 
-To build this checkout locally (without fetching the separately published wrapper):
+The old 2023 resolution cutoff has been removed. Existing compatible pins are
+retained where possible; dependencies required by the updated tools may be newer.
+See [DEPENDENCY_REVIEW.md](DEPENDENCY_REVIEW.md) for current audit results,
+verification, and remaining limitations.
+
+Build this checkout locally:
 
 ```sh
 npm ci --ignore-scripts
@@ -21,16 +26,17 @@ npm run build
 node bin/latex-to-speech --domain clearspeak 'x^2' '\frac{a}{b}'
 ```
 
-Installation hooks are disabled in `.npmrc`. The build is an explicit execution
-step and still runs with that setting. `mhchemparser` is a pinned build dependency;
-there is no nested postinstall download. Keep `package-lock.json` under version
-control and use `npm ci` to preserve the reviewed tree. The generated
+Installation hooks remain disabled in `.npmrc`; the explicit build still runs.
+`mhchemparser` is pinned as a build dependency, with no nested postinstall download.
+Keep the lockfile under version control and use `npm ci`. The generated
 `bin/tex2mml.js` and `node_modules/` are ignored by Git. Build before using the module.
-The build and conversion examples were checked with Node.js 24.22.1 and npm 11.19.1;
-this does not establish compatibility with all older Node.js versions.
 
-The upstream package installation instructions below refer to the public npm
-package, which does not acquire this checkout's dependency pins.
+The build and conversions were checked with Node.js 24.22.1 and npm 11.19.1;
+compatibility with historical Node.js versions was not tested. In particular,
+new dependencies can require a newer Node.js runtime.
+
+The upstream installation instructions below refer to the public npm package,
+which does not acquire this checkout's pins or root overrides.
 
 ## Install
 
